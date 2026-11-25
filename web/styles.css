@@ -86,6 +86,12 @@ p { margin: 0 0 0.85rem; }
   gap: 1.5rem;
   min-height: 86px;
 }
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1.35rem;
+  min-width: 0;
+}
 .brand-link {
   display: inline-flex;
   align-items: center;
@@ -100,7 +106,7 @@ p { margin: 0 0 0.85rem; }
   object-fit: contain;
 }
 
-.tabs { display: flex; gap: 1.6rem; overflow-x: auto; scrollbar-width: none; }
+.tabs { display: flex; gap: 1.5rem; overflow-x: auto; scrollbar-width: none; }
 .tabs::-webkit-scrollbar { display: none; }
 .tabs a {
   position: relative;
@@ -122,6 +128,37 @@ p { margin: 0 0 0.85rem; }
 }
 a:focus-visible, button:focus-visible, select:focus-visible, summary:focus-visible {
   outline: 2px solid #8c6d00; outline-offset: 3px;
+}
+
+/* ── Selector de idioma ES / EN ── */
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.2rem;
+  border: 1px solid var(--color-rule2);
+  border-radius: 999px;
+  background: var(--color-card);
+  flex: none;
+}
+.lang-btn {
+  font: inherit;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 0.26rem 0.62rem;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--color-muted);
+  cursor: pointer;
+}
+.lang-btn:hover {
+  color: var(--color-ink);
+}
+.lang-btn.is-active {
+  background: var(--color-accent);
+  color: var(--color-on-accent);
 }
 
 /* ── Tarjetas y avisos ── */
@@ -1160,6 +1197,11 @@ a:focus-visible, button:focus-visible, select:focus-visible, summary:focus-visib
 }
 
 /* ── Móvil y tablet ── */
+@media (max-width: 860px) {
+  .header-inner { flex-direction: column; align-items: flex-start; gap: 0.35rem; padding-top: 0.8rem; padding-bottom: 0.4rem; }
+  .header-right { width: 100%; justify-content: space-between; gap: 0.8rem; }
+}
+
 @media (max-width: 760px) {
   .intro-axes { grid-template-columns: repeat(2, 1fr); }
   .home-steps { grid-template-columns: 1fr; }
@@ -1169,10 +1211,9 @@ a:focus-visible, button:focus-visible, select:focus-visible, summary:focus-visib
 
 @media (max-width: 640px) {
   .wrap { padding: 0 1rem; }
-  .header-inner { flex-direction: column; align-items: flex-start; gap: 0.2rem; padding-top: 0.8rem; }
   .brand-logo { height: 50px; max-width: 260px; }
-  .tabs { gap: 1.2rem; width: 100%; }
-  .tabs a { padding: 0.65rem 0; }
+  .tabs { gap: 1.1rem; flex: 1 1 auto; }
+  .tabs a { padding: 0.65rem 0; font-size: 0.88rem; }
   .card { padding: 1.2rem; }
   .axis-card, .axis-info { padding: 1.35rem; }
   #vista-intro.card { padding: 0.8rem 0 0; }

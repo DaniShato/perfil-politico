@@ -1,0 +1,1247 @@
+{
+  "meta": {
+    "schema_version": "1.1.0",
+    "bank_version": "v6.1",
+    "total_items": 48,
+    "nucleo_items": 16
+  },
+  "items": [
+    {
+      "id": "Q01",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "coord_economica",
+      "peso_ejes": {
+        "coord_economica": 1.0
+      },
+      "faceta": "precios_y_asignacion",
+      "dominio": "economia_mercados",
+      "direccion": -1,
+      "es_nucleo": true,
+      "enunciado": "It is better for prices to be agreed upon by buyers and sellers than set by an authority.",
+      "nota_interna": "Q01 ya no tiene espejo: Q03 pasa a medir comercio exterior."
+    },
+    {
+      "id": "Q03",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "coord_economica",
+      "peso_ejes": {
+        "coord_economica": 1.0
+      },
+      "faceta": "precios_y_asignacion",
+      "dominio": "economia_mercados",
+      "direccion": 1,
+      "es_nucleo": false,
+      "enunciado": "The state should place taxes on goods coming from other countries to support domestic businesses.",
+      "nota_matiz": "These taxes are called tariffs.",
+      "nota_interna": "Sustituye al espejo de Q01. Mide intervención en el comercio exterior."
+    },
+    {
+      "id": "Q04",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "coord_economica",
+      "peso_ejes": {
+        "coord_economica": 1.0
+      },
+      "faceta": "reglas_y_direccion",
+      "dominio": "economia_mercados",
+      "es_nucleo": true,
+      "enunciado": "In the economy overall, how do you prefer decisions to be made on what is produced and at what price?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Decided freely by businesses and individuals negotiating with one another.",
+          "posiciones": {
+            "coord_economica": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Guided by a public administration through a plan.",
+          "posiciones": {
+            "coord_economica": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q06",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "coord_economica",
+      "peso_ejes": {
+        "coord_economica": 1.0
+      },
+      "faceta": "provision_y_gestion",
+      "dominio": "ayuda_y_solidaridad",
+      "es_nucleo": true,
+      "enunciado": "When the state helps low-income families, what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Giving them money so each family decides how to spend it.",
+          "posiciones": {
+            "coord_economica": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Providing specific services or goods, such as food, housing, or school supplies.",
+          "posiciones": {
+            "coord_economica": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q02",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "eleccion_3",
+      "eje_primario": "coord_economica",
+      "peso_ejes": {
+        "coord_economica": 1.0
+      },
+      "faceta": "precios_y_asignacion",
+      "dominio": "abastecimiento_precios",
+      "es_nucleo": false,
+      "enunciado": "If the price of a basic good, such as bread or milk, rises sharply due to a supply shock, what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Letting the price adjust freely according to supply and demand.",
+          "posiciones": {
+            "coord_economica": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Having an authority set a price ceiling and ration the good by quotas.",
+          "posiciones": {
+            "coord_economica": 1.0
+          }
+        },
+        {
+          "id": "C",
+          "texto": "Having an authority set a price ceiling, without quota rationing.",
+          "posiciones": {
+            "coord_economica": 0.5
+          }
+        }
+      ],
+      "nota_interna": "Reformulado: el escenario es una subida de precio, no una escasez. Opción C intermedia (tope sin reparto, +0.5)."
+    },
+    {
+      "id": "Q05",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "eleccion_3",
+      "eje_primario": "coord_economica",
+      "peso_ejes": {
+        "coord_economica": 1.0
+      },
+      "faceta": "provision_y_gestion",
+      "dominio": "abastecimiento_precios",
+      "es_nucleo": false,
+      "enunciado": "To allocate a limited resource used by many people, such as parking spaces in a neighborhood, which criterion do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Allocating them by criteria set by an authority, for example resident permits.",
+          "posiciones": {
+            "coord_economica": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Allocating them by price or what each person is willing to pay.",
+          "posiciones": {
+            "coord_economica": -1.0
+          }
+        },
+        {
+          "id": "C",
+          "texto": "Allocating them on a first-come, first-served basis, with no permits or payments.",
+          "posiciones": {
+            "coord_economica": -0.5
+          }
+        }
+      ],
+      "nota_interna": "Las opciones son mecanismos excluyentes (autoridad / precio / orden de llegada), no agentes que puedan combinarse."
+    },
+    {
+      "id": "Q25",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "coord_economica",
+      "peso_ejes": {
+        "coord_economica": 1.0
+      },
+      "faceta": "precios_y_asignacion",
+      "dominio": "economia_mercados",
+      "es_nucleo": true,
+      "enunciado": "Regarding wages, what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Having a legal minimum wage that guarantees a wage floor.",
+          "posiciones": {
+            "coord_economica": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Letting each employer and worker freely agree on pay according to their situation.",
+          "posiciones": {
+            "coord_economica": -1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q26",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "coord_economica",
+      "peso_ejes": {
+        "coord_economica": 1.0
+      },
+      "faceta": "reglas_y_direccion",
+      "dominio": "economia_mercados",
+      "es_nucleo": false,
+      "enunciado": "If a company comes to dominate almost an entire market, what should the state be able to do?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Intervene only if the company deceives customers or unfairly blocks competitors.",
+          "posiciones": {
+            "coord_economica": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Limit its size or break it up to encourage competition among more firms.",
+          "posiciones": {
+            "coord_economica": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q27",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "coord_economica",
+      "peso_ejes": {
+        "coord_economica": 1.0
+      },
+      "faceta": "reglas_y_direccion",
+      "dominio": "economia_mercados",
+      "es_nucleo": false,
+      "enunciado": "To offer professional services or open a business, what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Requiring a credential, license, or membership in a professional body beforehand, such as for lawyers or doctors.",
+          "posiciones": {
+            "coord_economica": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Being able to start without prior bureaucratic hurdles and letting each person choose whom they prefer.",
+          "posiciones": {
+            "coord_economica": -1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q28",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "coord_economica",
+      "peso_ejes": {
+        "coord_economica": 1.0
+      },
+      "faceta": "reglas_y_direccion",
+      "dominio": "economia_mercados",
+      "es_nucleo": false,
+      "enunciado": "To build a road that crosses private land, what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Allowing the administration to acquire the land at a fair price so the project can go ahead, even if some owner does not want to sell.",
+          "posiciones": {
+            "coord_economica": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Building it only on land from owners who voluntarily agree to sell.",
+          "posiciones": {
+            "coord_economica": -1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q29",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "coord_economica",
+      "peso_ejes": {
+        "coord_economica": 1.0
+      },
+      "faceta": "provision_y_gestion",
+      "dominio": "economia_mercados",
+      "direccion": 1,
+      "es_nucleo": false,
+      "enunciado": "Basic services such as water, electricity, or public transit should be publicly owned.",
+      "nota_interna": "Ya no es espejo de Q30. Mide propiedad estatal de infraestructuras."
+    },
+    {
+      "id": "Q30",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "coord_economica",
+      "peso_ejes": {
+        "coord_economica": 1.0
+      },
+      "faceta": "provision_y_gestion",
+      "dominio": "economia_mercados",
+      "direccion": -1,
+      "es_nucleo": false,
+      "enunciado": "It is better for families to receive public funding to choose among public or private schools and clinics than for the state to run only its own facilities.",
+      "nota_interna": "Ya no es espejo de Q29. Mide elección con financiación pública en educación y sanidad."
+    },
+    {
+      "id": "Q07",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "redistribucion",
+      "peso_ejes": {
+        "redistribucion": 1.0
+      },
+      "faceta": "impuestos_y_progresividad",
+      "dominio": "impuestos_transferencias",
+      "direccion": 1,
+      "es_nucleo": true,
+      "enunciado": "Those with higher incomes should contribute a larger percentage in taxes."
+    },
+    {
+      "id": "Q09",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "redistribucion",
+      "peso_ejes": {
+        "redistribucion": 1.0
+      },
+      "faceta": "obligatoriedad_y_riqueza",
+      "dominio": "impuestos_transferencias",
+      "direccion": 1,
+      "es_nucleo": false,
+      "enunciado": "The state should tax large accumulations of wealth or assets at higher rates.",
+      "nota_interna": "Sustituye al espejo plano de Q07 para medir intensidad redistributiva sobre grandes patrimonios."
+    },
+    {
+      "id": "Q08",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "redistribucion",
+      "peso_ejes": {
+        "redistribucion": 1.0
+      },
+      "faceta": "impuestos_y_progresividad",
+      "dominio": "impuestos_transferencias",
+      "es_nucleo": true,
+      "enunciado": "Regarding the level of taxes and state financial aid, what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Lower taxes to leave more room for each individual and less public assistance.",
+          "posiciones": {
+            "redistribucion": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "More public support and financial assistance funded by higher taxes.",
+          "posiciones": {
+            "redistribucion": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q10",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "redistribucion",
+      "peso_ejes": {
+        "redistribucion": 1.0
+      },
+      "faceta": "obligatoriedad_y_riqueza",
+      "dominio": "ayuda_y_solidaridad",
+      "es_nucleo": true,
+      "enunciado": "To help people facing economic hardship, what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Having the state fund it through taxes or public contributions.",
+          "posiciones": {
+            "redistribucion": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Having it come from voluntary initiative: families, donations, associations, churches, or mutual aid societies.",
+          "posiciones": {
+            "redistribucion": -1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q11",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "redistribucion",
+      "peso_ejes": {
+        "redistribucion": 1.0
+      },
+      "faceta": "diseno_de_ayudas",
+      "dominio": "ayuda_y_solidaridad",
+      "es_nucleo": false,
+      "enunciado": "When designing public benefits and services, what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Focusing assistance on those with fewer resources.",
+          "posiciones": {
+            "redistribucion": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Extending benefits and services to the entire population regardless of income, such as universal healthcare or education.",
+          "posiciones": {
+            "redistribucion": 1.0
+          }
+        }
+      ],
+      "nota_interna": "Focalización por ingresos frente a universalidad en prestaciones y servicios."
+    },
+    {
+      "id": "Q12",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "redistribucion",
+      "peso_ejes": {
+        "redistribucion": 1.0
+      },
+      "faceta": "obligatoriedad_y_riqueza",
+      "dominio": "impuestos_transferencias",
+      "es_nucleo": false,
+      "enunciado": "Regarding inheritances of large estates, what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Taxing them at higher rates to promote equality of starting conditions.",
+          "posiciones": {
+            "redistribucion": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Taxing them very lightly or not at all to respect family legacy.",
+          "posiciones": {
+            "redistribucion": -1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q31",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "eleccion_3",
+      "eje_primario": "redistribucion",
+      "peso_ejes": {
+        "redistribucion": 1.0
+      },
+      "faceta": "impuestos_y_progresividad",
+      "dominio": "impuestos_transferencias",
+      "es_nucleo": false,
+      "enunciado": "To fund public services and spending, what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Having those with higher incomes or wealth contribute more.",
+          "posiciones": {
+            "redistribucion": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Having everyone contribute based on what they buy, through consumption taxes like VAT.",
+          "posiciones": {
+            "redistribucion": -0.5
+          }
+        },
+        {
+          "id": "C",
+          "texto": "Having no general taxes, with services funded by voluntary payments or user fees.",
+          "posiciones": {
+            "redistribucion": -1.0
+          }
+        }
+      ],
+      "nota_interna": "Añadida la opción sin impuestos obligatorios. Suma -0.5 (E_rand de redistribución ≈ -0.014)."
+    },
+    {
+      "id": "Q32",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "redistribucion",
+      "peso_ejes": {
+        "redistribucion": 1.0
+      },
+      "faceta": "diseno_de_ayudas",
+      "dominio": "ayuda_y_solidaridad",
+      "direccion": -1,
+      "es_nucleo": false,
+      "enunciado": "It is good for someone receiving financial aid to commit to training or looking for work.",
+      "nota_interna": "Ya no es espejo de Q33. Mide condicionalidad."
+    },
+    {
+      "id": "Q33",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "redistribucion",
+      "peso_ejes": {
+        "redistribucion": 1.0
+      },
+      "faceta": "diseno_de_ayudas",
+      "dominio": "ayuda_y_solidaridad",
+      "direccion": 1,
+      "es_nucleo": false,
+      "enunciado": "The state should guarantee a basic income to live on for anyone who cannot work or cannot find a job.",
+      "nota_interna": "Sustituye al espejo de Q32. Mide garantía de ingreso, no condicionalidad."
+    },
+    {
+      "id": "Q34",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "redistribucion",
+      "peso_ejes": {
+        "redistribucion": 1.0
+      },
+      "faceta": "obligatoriedad_y_riqueza",
+      "dominio": "impuestos_transferencias",
+      "es_nucleo": false,
+      "enunciado": "To organize retirement pensions, what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Having each person build their own retirement savings.",
+          "posiciones": {
+            "redistribucion": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "An intergenerational system where current contributions fund current pensions.",
+          "posiciones": {
+            "redistribucion": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q35",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "redistribucion",
+      "peso_ejes": {
+        "redistribucion": 1.0
+      },
+      "faceta": "obligatoriedad_y_riqueza",
+      "dominio": "impuestos_transferencias",
+      "es_nucleo": false,
+      "enunciado": "To fund a project that protects an entire area, such as flood defenses, what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Having the administration fund it through taxes or levies on benefiting residents.",
+          "posiciones": {
+            "redistribucion": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Voluntary contributions from those who wish to pitch in.",
+          "posiciones": {
+            "redistribucion": -1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q36",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "redistribucion",
+      "peso_ejes": {
+        "redistribucion": 1.0
+      },
+      "faceta": "diseno_de_ayudas",
+      "dominio": "ayuda_y_solidaridad",
+      "es_nucleo": true,
+      "enunciado": "Regarding healthcare, what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Having each person choose their own health insurance or pay directly for care.",
+          "posiciones": {
+            "redistribucion": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "A tax-funded public system covering the entire population.",
+          "posiciones": {
+            "redistribucion": 1.0
+          }
+        }
+      ],
+      "nota_interna": "Sustituye al seguro de enfermedad o paro: ahora es sanidad explícita."
+    },
+    {
+      "id": "Q13",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "orden_social",
+      "peso_ejes": {
+        "orden_social": 1.0
+      },
+      "faceta": "costumbres_y_cohesion",
+      "dominio": "cultura_costumbres",
+      "direccion": 1,
+      "espejo": "Q15",
+      "es_nucleo": true,
+      "enunciado": "It is valuable to preserve a community's traditional customs, such as its festivals and way of life."
+    },
+    {
+      "id": "Q15",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "orden_social",
+      "peso_ejes": {
+        "orden_social": 1.0
+      },
+      "faceta": "costumbres_y_cohesion",
+      "dominio": "cultura_costumbres",
+      "direccion": -1,
+      "espejo": "Q13",
+      "es_nucleo": false,
+      "enunciado": "It is valuable for each person to choose their own lifestyle, whether or not they follow traditional customs."
+    },
+    {
+      "id": "Q14",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "orden_social",
+      "peso_ejes": {
+        "orden_social": 1.0
+      },
+      "faceta": "costumbres_y_cohesion",
+      "dominio": "cultura_costumbres",
+      "es_nucleo": true,
+      "enunciado": "If someone lives with habits different from their surroundings without breaking any law, what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Expecting them to adapt to the shared customs of their surroundings.",
+          "posiciones": {
+            "orden_social": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Respecting their own way of living.",
+          "posiciones": {
+            "orden_social": -1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q17",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "orden_social",
+      "peso_ejes": {
+        "orden_social": 1.0
+      },
+      "faceta": "vida_privada_y_normas_legales",
+      "dominio": "familia_vida_privada",
+      "es_nucleo": true,
+      "enunciado": "Regarding how a family is organized—for example who works outside the home, who cares for children, and how chores are divided—what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Letting each household decide how to organize itself and divide responsibilities.",
+          "posiciones": {
+            "orden_social": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Having laws and public policies back a specific family model, such as marriage with children and traditional roles.",
+          "posiciones": {
+            "orden_social": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q18",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "orden_social",
+      "peso_ejes": {
+        "orden_social": 1.0
+      },
+      "faceta": "referentes_comunes",
+      "dominio": "cultura_costumbres",
+      "es_nucleo": true,
+      "enunciado": "In schools and public events, what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Letting each family or school choose different cultural approaches.",
+          "posiciones": {
+            "orden_social": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Sharing a common culture and history to strengthen cohesion.",
+          "posiciones": {
+            "orden_social": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q40",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "orden_social",
+      "peso_ejes": {
+        "orden_social": 1.0
+      },
+      "faceta": "vida_privada_y_normas_legales",
+      "dominio": "familia_vida_privada",
+      "es_nucleo": false,
+      "enunciado": "Regarding alcohol, tobacco, and other substances harmful to health, what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Having the law limit their sale or consumption.",
+          "posiciones": {
+            "orden_social": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Letting each adult decide for themselves.",
+          "posiciones": {
+            "orden_social": -1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q41",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "orden_social",
+      "peso_ejes": {
+        "orden_social": 1.0
+      },
+      "faceta": "referentes_comunes",
+      "dominio": "cultura_costumbres",
+      "es_nucleo": false,
+      "enunciado": "When people with different customs arrive in a community, what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Adopting the local customs and cultural norms to integrate.",
+          "posiciones": {
+            "orden_social": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Keeping their customs as long as they obey the law.",
+          "posiciones": {
+            "orden_social": -1.0
+          }
+        }
+      ],
+      "nota_interna": "Ítem sensible: calibrar en piloto."
+    },
+    {
+      "id": "Q42",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "orden_social",
+      "peso_ejes": {
+        "orden_social": 1.0
+      },
+      "faceta": "vida_privada_y_normas_legales",
+      "dominio": "familia_vida_privada",
+      "es_nucleo": false,
+      "enunciado": "Regarding euthanasia, what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Having the law allow it as a personal choice.",
+          "posiciones": {
+            "orden_social": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Having the law ban it to protect life at all times.",
+          "posiciones": {
+            "orden_social": 1.0
+          }
+        }
+      ],
+      "nota_matiz": "Euthanasia: a physician helping end the life of an adult with an incurable illness and severe suffering, at their request.",
+      "nota_interna": "Eutanasia. También carga en poder (coerción estatal); se asigna a un solo eje por simplicidad."
+    },
+    {
+      "id": "Q43",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "orden_social",
+      "peso_ejes": {
+        "orden_social": 1.0
+      },
+      "faceta": "vida_privada_y_normas_legales",
+      "dominio": "familia_vida_privada",
+      "es_nucleo": false,
+      "enunciado": "Regarding abortion in the early weeks of pregnancy, what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Having the law leave the decision in the woman's hands.",
+          "posiciones": {
+            "orden_social": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Having the law ban it in general to protect developing life.",
+          "posiciones": {
+            "orden_social": 1.0
+          }
+        }
+      ],
+      "nota_interna": "NUEVO (aborto). Mismo criterio que Q42."
+    },
+    {
+      "id": "Q38",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "orden_social",
+      "peso_ejes": {
+        "orden_social": 1.0
+      },
+      "faceta": "referentes_comunes",
+      "dominio": "estado_y_fronteras",
+      "es_nucleo": false,
+      "enunciado": "Regarding who can enter to live in a country, what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Allowing people to move and settle in another country with few or no barriers.",
+          "posiciones": {
+            "orden_social": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Having each country regulate and control who may enter.",
+          "posiciones": {
+            "orden_social": 1.0
+          }
+        }
+      ],
+      "nota_interna": "NUEVO (fronteras). Carga también algo en coord (movilidad laboral); se deja en un eje."
+    },
+    {
+      "id": "Q39",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "orden_social",
+      "peso_ejes": {
+        "orden_social": 1.0
+      },
+      "faceta": "referentes_comunes",
+      "dominio": "cultura_costumbres",
+      "es_nucleo": false,
+      "enunciado": "Regarding religion and the state, what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Having the state recognize and support the country's religious tradition in public life, such as in holidays, symbols, or schools.",
+          "posiciones": {
+            "orden_social": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Having the state remain neutral and treat all beliefs—and those with none—equally.",
+          "posiciones": {
+            "orden_social": -1.0
+          }
+        }
+      ],
+      "nota_interna": "NUEVO (religión y Estado). Sustituye al par Q38/Q39 de horarios."
+    },
+    {
+      "id": "Q37",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "poder_jurisprudencia",
+      "peso_ejes": {
+        "poder_jurisprudencia": 1.0
+      },
+      "faceta": "castigo_ley_y_norma_social",
+      "dominio": "normas_y_convivencia",
+      "es_nucleo": false,
+      "enunciado": "Faced with speech that many people consider offensive, what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Allowing the law to limit severely offensive speech, such as insults aimed at groups of people.",
+          "posiciones": {
+            "poder_jurisprudencia": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Protecting free speech so long as it does not directly incite violence.",
+          "posiciones": {
+            "poder_jurisprudencia": -1.0
+          }
+        }
+      ],
+      "nota_interna": "Movido a poder_jurisprudencia para mantener 12 ítems por eje y medir regulación legal de la expresión."
+    },
+    {
+      "id": "Q19",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "poder_jurisprudencia",
+      "peso_ejes": {
+        "poder_jurisprudencia": 1.0
+      },
+      "faceta": "garantias_y_proceso",
+      "dominio": "justicia_garantias",
+      "direccion": -1,
+      "espejo": "Q21",
+      "es_nucleo": true,
+      "enunciado": "It is essential to always protect the rights and safeguards of anyone investigated or on trial: a fair trial, right to defense, presumption of innocence, and clear limits on arrests and searches."
+    },
+    {
+      "id": "Q21",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "poder_jurisprudencia",
+      "peso_ejes": {
+        "poder_jurisprudencia": 1.0
+      },
+      "faceta": "garantias_y_proceso",
+      "dominio": "justicia_garantias",
+      "direccion": 1,
+      "espejo": "Q19",
+      "es_nucleo": false,
+      "enunciado": "In serious crimes, it is advisable to streamline procedures and reduce certain formalities to act faster and more effectively."
+    },
+    {
+      "id": "Q22",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "eleccion_3",
+      "eje_primario": "poder_jurisprudencia",
+      "peso_ejes": {
+        "poder_jurisprudencia": 1.0
+      },
+      "faceta": "castigo_ley_y_norma_social",
+      "dominio": "justicia_garantias",
+      "es_nucleo": true,
+      "enunciado": "Faced with a serious crime, what do you prefer to prioritize?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Investing in helping the offender reintegrate and contribute to society.",
+          "posiciones": {
+            "poder_jurisprudencia": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Having the offender repair the harm and compensate the victim.",
+          "posiciones": {
+            "poder_jurisprudencia": 0.0
+          }
+        },
+        {
+          "id": "C",
+          "texto": "Longer prison sentences to strengthen security and deterrence.",
+          "posiciones": {
+            "poder_jurisprudencia": 1.0
+          }
+        }
+      ],
+      "nota_interna": "Antes preferencia_5 (pena vs reinserción). Ahora eleccion_3 con restitución a la víctima en posición 0."
+    },
+    {
+      "id": "Q23",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "poder_jurisprudencia",
+      "peso_ejes": {
+        "poder_jurisprudencia": 1.0
+      },
+      "faceta": "investigacion_y_excepcionalidad",
+      "dominio": "justicia_garantias",
+      "es_nucleo": true,
+      "enunciado": "Faced with a severe emergency, what do you prefer regarding exceptional government measures?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Having a judge or parliament authorize them before they take effect.",
+          "posiciones": {
+            "poder_jurisprudencia": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Allowing them to take effect immediately to respond in time and be reviewed afterward.",
+          "posiciones": {
+            "poder_jurisprudencia": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q24",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "poder_jurisprudencia",
+      "peso_ejes": {
+        "poder_jurisprudencia": 1.0
+      },
+      "faceta": "investigacion_y_excepcionalidad",
+      "dominio": "justicia_garantias",
+      "es_nucleo": true,
+      "enunciado": "Regarding access to messages, calls, and personal data during investigations, what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Facilitating it so investigations are faster and more effective.",
+          "posiciones": {
+            "poder_jurisprudencia": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Restricting it to specific cases and under a judge's authorization.",
+          "posiciones": {
+            "poder_jurisprudencia": -1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q44",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "poder_jurisprudencia",
+      "peso_ejes": {
+        "poder_jurisprudencia": 1.0
+      },
+      "faceta": "garantias_y_proceso",
+      "dominio": "justicia_garantias",
+      "es_nucleo": false,
+      "enunciado": "Regarding pretrial detention before trial in serious crimes, what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Applying it when there are signs of risk to public safety or repeat offending.",
+          "posiciones": {
+            "poder_jurisprudencia": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Applying it only if there is a clear risk of flight or tampering with evidence.",
+          "posiciones": {
+            "poder_jurisprudencia": -1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q48",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "poder_jurisprudencia",
+      "peso_ejes": {
+        "poder_jurisprudencia": 0.5
+      },
+      "faceta": "garantias_y_proceso",
+      "dominio": "justicia_garantias",
+      "es_nucleo": false,
+      "enunciado": "When applying a law to the letter produces a very harsh outcome in a particular case, what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Having the judge apply the law as written to preserve predictability and equality.",
+          "posiciones": {
+            "poder_jurisprudencia": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Allowing the judge to moderate how the law is applied to avoid an unjust outcome.",
+          "posiciones": {
+            "poder_jurisprudencia": 1.0
+          }
+        }
+      ],
+      "nota_interna": "Peso reducido a 0.5 para no desplazar en exceso a perfiles garantistas o igualitarios."
+    },
+    {
+      "id": "Q16",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "poder_jurisprudencia",
+      "peso_ejes": {
+        "poder_jurisprudencia": 1.0
+      },
+      "faceta": "investigacion_y_excepcionalidad",
+      "dominio": "justicia_garantias",
+      "es_nucleo": false,
+      "enunciado": "Regarding anonymity online, what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Having platforms identify their users to make it easier to prosecute online crimes.",
+          "posiciones": {
+            "poder_jurisprudencia": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Allowing anyone to browse anonymously to protect their privacy.",
+          "posiciones": {
+            "poder_jurisprudencia": -1.0
+          }
+        }
+      ],
+      "nota_interna": "NUEVO (privacidad en internet). Sustituye a la primera mitad del antiguo Q16, fusionado en Q20."
+    },
+    {
+      "id": "Q20",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "eleccion_3",
+      "eje_primario": "poder_jurisprudencia",
+      "peso_ejes": {
+        "poder_jurisprudencia": 1.0,
+        "orden_social": 0.4
+      },
+      "faceta": "castigo_ley_y_norma_social",
+      "dominio": "normas_y_convivencia",
+      "es_nucleo": false,
+      "enunciado": "If a social norm is important to part of the population, what do you prefer?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Having no external rule at all, with each individual deciding their own conduct.",
+          "posiciones": {
+            "poder_jurisprudencia": -1.0,
+            "orden_social": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Having each association or community set its own rules, applying only to those who voluntarily join.",
+          "posiciones": {
+            "poder_jurisprudencia": -0.5,
+            "orden_social": 0.8
+          }
+        },
+        {
+          "id": "C",
+          "texto": "Having the state establish it as a general law for the entire population.",
+          "posiciones": {
+            "poder_jurisprudencia": 1.0,
+            "orden_social": 0.8
+          }
+        }
+      ],
+      "nota_interna": "Fusión de Q16 y Q20. Suma de poder -0.5 (E_rand de poder ≈ -0.014)."
+    },
+    {
+      "id": "Q45",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "poder_jurisprudencia",
+      "peso_ejes": {
+        "poder_jurisprudencia": 1.0
+      },
+      "faceta": "castigo_ley_y_norma_social",
+      "dominio": "justicia_garantias",
+      "direccion": 1,
+      "es_nucleo": false,
+      "enunciado": "To maintain public order, security forces should be able to act with preventive force even if that increases the risk of overreach.",
+      "nota_interna": "Contundencia preventiva del orden público frente a contención para evitar excesos (dirección +1 en poder)."
+    },
+    {
+      "id": "Q46",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "poder_jurisprudencia",
+      "peso_ejes": {
+        "poder_jurisprudencia": 1.0
+      },
+      "faceta": "investigacion_y_excepcionalidad",
+      "dominio": "estado_y_fronteras",
+      "direccion": -1,
+      "es_nucleo": false,
+      "enunciado": "A rule is legitimate only if each person accepts it voluntarily, even if that prevents applying it to everyone.",
+      "nota_interna": "Enunciado endurecido para discriminar mejor frente a la aceptación de coerción legal."
+    },
+    {
+      "id": "Q47",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "poder_jurisprudencia",
+      "peso_ejes": {
+        "poder_jurisprudencia": 1.0
+      },
+      "faceta": "castigo_ley_y_norma_social",
+      "dominio": "estado_y_fronteras",
+      "direccion": 1,
+      "es_nucleo": false,
+      "enunciado": "Mandatory military service helps strengthen the country's defense and civic bond.",
+      "nota_interna": "Reformulado manteniendo servicio militar obligatorio de forma explícita y equilibrada."
+    }
+  ]
+}

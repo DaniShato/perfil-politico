@@ -1,0 +1,879 @@
+{
+  "version": "0.7.0-equilibrado",
+  "nota_revision": "Indicative reference currents in political, economic, and philosophical terms for international use.",
+  "familias": [
+    {
+      "id": "anarcocapitalismo",
+      "nombre": "Anarcho-capitalism / market voluntarism",
+      "definida_en": 4,
+      "parcial": false,
+      "rangos": {
+        "coord_economica": [
+          -1.0,
+          -0.8
+        ],
+        "redistribucion": [
+          -1.0,
+          -0.8
+        ],
+        "orden_social": [
+          -1.0,
+          -0.3
+        ],
+        "poder_jurisprudencia": [
+          -1.0,
+          -0.75
+        ]
+      },
+      "nota_corriente": "Proposes dispensing with a monopolistic state and resolving security, justice, and services through voluntary agreements and markets.",
+      "detalles": {
+        "cita": "“The state is the great fiction through which everybody endeavors to live at the expense of everybody else.” — Frédéric Bastiat (a forerunner cited in this tradition).",
+        "origen": "Takes shape in the 20th century from the American libertarian tradition and the Austrian School, combining radical individualism with market economic theory.",
+        "defienden": "Free contracts, private property without state coercion, private arbitration and security agencies, and open competition across all spheres.",
+        "economia_politica": "Absence of coercive taxation, competing currencies, and voluntary provision of infrastructure, justice, and services.",
+        "filosofia_etica": "Non-aggression principle, individual sovereignty, and legitimacy grounded exclusively in consensual ties.",
+        "autores": [
+          {
+            "nombre": "Murray Rothbard",
+            "epoca": "1926–1995",
+            "aporte": "Systematized modern anarcho-capitalism in “For a New Liberty.”",
+            "ilustracion": "assets/autores/murray-rothbard.webp"
+          },
+          {
+            "nombre": "David Friedman",
+            "epoca": "b. 1945",
+            "aporte": "Developed its defense through economic analysis of law in “The Machinery of Freedom.”",
+            "ilustracion": "assets/autores/david-friedman.webp"
+          },
+          {
+            "nombre": "Peter Leeson",
+            "epoca": "b. 1979",
+            "aporte": "Researched stateless private ordering in works such as “Anarchy Unbound.”",
+            "ilustracion": "assets/autores/leeson.webp"
+          }
+        ],
+        "curiosidades": "Murray Rothbard coined the term “anarcho-capitalism” in the mid-20th century; in nearby areas, its practical proposals overlap with minarchist libertarianism.",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Anarcho-capitalism",
+            "url": "https://en.wikipedia.org/wiki/Anarcho-capitalism"
+          },
+          {
+            "titulo": "Wikipedia · Voluntarism (politics)",
+            "url": "https://en.wikipedia.org/wiki/Voluntarism_(politics)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "libertarismo_mercado",
+      "nombre": "Minarchist libertarianism",
+      "definida_en": 4,
+      "parcial": false,
+      "rangos": {
+        "coord_economica": [
+          -1.0,
+          -0.5
+        ],
+        "redistribucion": [
+          -0.95,
+          -0.4
+        ],
+        "orden_social": [
+          -1.0,
+          -0.15
+        ],
+        "poder_jurisprudencia": [
+          -0.9,
+          -0.3
+        ]
+      },
+      "nota_corriente": "Advocates full individual autonomy, free markets, and a minimal state restricted to core functions such as justice and security.",
+      "detalles": {
+        "cita": "“Individuals have rights, and there are things no person or group may do to them (without violating their rights).” — Robert Nozick.",
+        "origen": "Emerges in the 20th century as a systematic development of classical liberalism, with strong momentum in Anglo-American political philosophy and economics.",
+        "defienden": "Robust private property, free agreements among individuals, and a minimal state limited to protecting against force, theft, and fraud.",
+        "economia_politica": "Open competition, free prices, low tax burden, and maximum decentralization of economic decisions.",
+        "filosofia_etica": "Moral autonomy of the individual, personal liberty, and primacy of voluntary choice over collective mandate.",
+        "autores": [
+          {
+            "nombre": "Robert Nozick",
+            "epoca": "1938–2002",
+            "aporte": "Philosophical formulations of the minimal state in “Anarchy, State, and Utopia.”",
+            "ilustracion": "assets/autores/nozick.webp"
+          },
+          {
+            "nombre": "Milton Friedman",
+            "epoca": "1912–2006",
+            "aporte": "Defended the link between economic and political freedom in “Capitalism and Freedom.”",
+            "ilustracion": "assets/autores/milton-friedman.webp"
+          },
+          {
+            "nombre": "Ayn Rand",
+            "epoca": "1905–1982",
+            "aporte": "Popularized radical individualism and laissez-faire capitalism through Objectivism.",
+            "ilustracion": "assets/autores/rand.webp"
+          }
+        ],
+        "curiosidades": "A state reduced to courts, police, and defense is classically known as a “night-watchman state.”",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Night-watchman state",
+            "url": "https://en.wikipedia.org/wiki/Night-watchman_state"
+          },
+          {
+            "titulo": "Stanford Encyclopedia · Libertarianism",
+            "url": "https://plato.stanford.edu/entries/libertarianism/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "liberalismo_clasico",
+      "nombre": "Classical liberal tradition",
+      "definida_en": 4,
+      "parcial": false,
+      "rangos": {
+        "coord_economica": [
+          -0.8,
+          -0.25
+        ],
+        "redistribucion": [
+          -0.6,
+          0.05
+        ],
+        "orden_social": [
+          -0.8,
+          -0.05
+        ],
+        "poder_jurisprudencia": [
+          -0.95,
+          -0.3
+        ]
+      },
+      "nota_corriente": "Emphasizes individual rights, the rule of law, economic liberty, and checks and balances on power.",
+      "detalles": {
+        "cita": "“So that one cannot abuse power, power must check power.” — Montesquieu.",
+        "origen": "Arises between the 17th and 18th centuries against monarchical absolutism and mercantilism, consolidating modern constitutionalism.",
+        "defienden": "Civil liberties, equality before the law, separation of powers, legal certainty, and clear limits on governmental authority.",
+        "economia_politica": "Market economy with stable rules, open trade, and a state bounded to essential functions and basic public goods.",
+        "filosofia_etica": "Individual dignity and responsibility, skepticism toward concentrated power, and trust in the spontaneous order of society.",
+        "autores": [
+          {
+            "nombre": "John Locke",
+            "epoca": "1632–1704",
+            "aporte": "Laid the foundations of limited government and natural rights to life, liberty, and property.",
+            "ilustracion": "assets/autores/locke.webp"
+          },
+          {
+            "nombre": "Adam Smith",
+            "epoca": "1723–1790",
+            "aporte": "Analyzed the division of labor and coordination via prices in “The Wealth of Nations.”",
+            "ilustracion": "assets/autores/adam-smith.webp"
+          },
+          {
+            "nombre": "Friedrich Hayek",
+            "epoca": "1899–1992",
+            "aporte": "Explained the role of dispersed knowledge in markets and the rule of law.",
+            "ilustracion": "assets/autores/friedrich-hayek.webp"
+          }
+        ],
+        "curiosidades": "The word “liberal” was first used as a political label in the Cortes of Cádiz in 1812, spreading from there across Europe.",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Classical liberalism",
+            "url": "https://en.wikipedia.org/wiki/Classical_liberalism"
+          },
+          {
+            "titulo": "Stanford Encyclopedia · Liberalism",
+            "url": "https://plato.stanford.edu/entries/liberalism/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "socioliberalismo",
+      "nombre": "Egalitarian liberalism / social liberalism",
+      "definida_en": 4,
+      "parcial": false,
+      "rangos": {
+        "coord_economica": [
+          -0.4,
+          0.2
+        ],
+        "redistribucion": [
+          -0.05,
+          0.5
+        ],
+        "orden_social": [
+          -0.9,
+          -0.2
+        ],
+        "poder_jurisprudencia": [
+          -0.8,
+          -0.1
+        ]
+      },
+      "nota_corriente": "Combines broad civil liberties and a market economy with public policies aimed at expanding real opportunities.",
+      "detalles": {
+        "cita": "“Justice is the first virtue of social institutions, as truth is of systems of thought.” — John Rawls.",
+        "origen": "Emerges in the late 19th century and consolidates in the 20th by revising classical liberalism to integrate social justice and effective rights.",
+        "defienden": "Real equality of opportunity, broad personal freedoms, cultural pluralism, and protection against private and public abuses.",
+        "economia_politica": "Dynamic market regulated with fairness, public investment in education and healthcare, and basic safety nets.",
+        "filosofia_etica": "Effective autonomy: holds that formal freedom requires material and educational conditions to be genuinely exercised.",
+        "autores": [
+          {
+            "nombre": "John Stuart Mill",
+            "epoca": "1806–1873",
+            "aporte": "Articulated the defense of individual liberty alongside a gradual openness to social reform.",
+            "ilustracion": "assets/autores/john-stuart-mill.webp"
+          },
+          {
+            "nombre": "John Rawls",
+            "epoca": "1921–2002",
+            "aporte": "Proposed the “veil of ignorance” and justice as fairness in “A Theory of Justice.”",
+            "ilustracion": "assets/autores/rawls.webp"
+          },
+          {
+            "nombre": "Amartya Sen",
+            "epoca": "b. 1933",
+            "aporte": "Developed the capability approach to measure people's real freedom.",
+            "ilustracion": "assets/autores/sen.webp"
+          }
+        ],
+        "curiosidades": "Rawls's thought experiment of the “veil of ignorance” invites us to design social rules without knowing what position we will occupy at birth.",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Social liberalism",
+            "url": "https://en.wikipedia.org/wiki/Social_liberalism"
+          },
+          {
+            "titulo": "Stanford Encyclopedia · John Rawls",
+            "url": "https://plato.stanford.edu/entries/rawls/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "socialdemocracia",
+      "nombre": "Social democratic current",
+      "definida_en": 3,
+      "parcial": false,
+      "rangos": {
+        "coord_economica": [
+          0.0,
+          0.5
+        ],
+        "redistribucion": [
+          0.3,
+          0.85
+        ],
+        "orden_social": null,
+        "poder_jurisprudencia": [
+          -0.8,
+          0.0
+        ]
+      },
+      "nota_corriente": "Favors a regulated mixed economy, a solid welfare state, and mechanisms of redistribution.",
+      "detalles": {
+        "cita": "“The movement is everything, the final goal is nothing.” — Eduard Bernstein.",
+        "origen": "Evolves from late-19th-century European socialism toward the parliamentary path and postwar welfare-state building after 1945.",
+        "defienden": "Universal public services, collective bargaining, social protection against life risks, and constitutional democracy.",
+        "economia_politica": "Mixed coordination between private enterprise, labor regulation, and progressive taxation to fund public benefits.",
+        "filosofia_etica": "Social solidarity, full citizenship, and commitment to reducing economic inequalities without suppressing pluralism.",
+        "autores": [
+          {
+            "nombre": "Eduard Bernstein",
+            "epoca": "1850–1932",
+            "aporte": "Theorized democratic, gradual reformism as opposed to the revolutionary path.",
+            "ilustracion": "assets/autores/eduard-bernstein.webp"
+          },
+          {
+            "nombre": "T. H. Marshall",
+            "epoca": "1893–1981",
+            "aporte": "Defined social rights as an indispensable complement to civil and political rights.",
+            "ilustracion": "assets/autores/marshall.webp"
+          },
+          {
+            "nombre": "Gösta Esping-Andersen",
+            "epoca": "b. 1947",
+            "aporte": "Classified comparative welfare-state models in “The Three Worlds of Welfare Capitalism.”",
+            "ilustracion": "assets/autores/esping-andersen.webp"
+          }
+        ],
+        "curiosidades": "The Nordic model is often cited as an empirical reference for this tradition by combining high trade openness with broad social coverage.",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Social democracy",
+            "url": "https://en.wikipedia.org/wiki/Social_democracy"
+          },
+          {
+            "titulo": "Wikipedia · Welfare state",
+            "url": "https://en.wikipedia.org/wiki/Welfare_state"
+          }
+        ]
+      }
+    },
+    {
+      "id": "socialismo_democratico",
+      "nombre": "Democratic / reformist socialism",
+      "definida_en": 3,
+      "parcial": false,
+      "rangos": {
+        "coord_economica": [
+          0.3,
+          0.85
+        ],
+        "redistribucion": [
+          0.5,
+          1.0
+        ],
+        "orden_social": null,
+        "poder_jurisprudencia": [
+          -0.7,
+          0.15
+        ]
+      },
+      "nota_corriente": "Seeks to democratize the economy, expand public direction, and strengthen material equality with safeguards.",
+      "detalles": {
+        "cita": "“Democracy is subversive because it introduces equality where hierarchy once reigned.” — Norberto Bobbio.",
+        "origen": "Consolidates in the 20th century as an alternative to both free-market capitalism and single-party authoritarianism.",
+        "defienden": "Collective or public control over strategic sectors, workplace economic democracy, broad labor rights, and deep redistribution.",
+        "economia_politica": "Meaningful public or cooperative planning and active policies to decommodify basic needs.",
+        "filosofia_etica": "Distributive justice, cooperation above pure competition, and extending democracy into the economic sphere.",
+        "autores": [
+          {
+            "nombre": "Jean Jaurès",
+            "epoca": "1859–1914",
+            "aporte": "Defended the inseparable synthesis between a democratic republic and socialist transformation.",
+            "ilustracion": "assets/autores/jaures.webp"
+          },
+          {
+            "nombre": "Norberto Bobbio",
+            "epoca": "1909–2004",
+            "aporte": "Analyzed the link between democratic rules, individual rights, and social equality.",
+            "ilustracion": "assets/autores/norberto-bobbio.webp"
+          },
+          {
+            "nombre": "Michael Harrington",
+            "epoca": "1928–1989",
+            "aporte": "Championed contemporary democratic socialism and the study of structural poverty.",
+            "ilustracion": "assets/autores/harrington.webp"
+          }
+        ],
+        "curiosidades": "Unlike modern social democracy, it aims to transform ownership of key sectors rather than only redistributing incomes.",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Democratic socialism",
+            "url": "https://en.wikipedia.org/wiki/Democratic_socialism"
+          },
+          {
+            "titulo": "Stanford Encyclopedia · Socialism",
+            "url": "https://plato.stanford.edu/entries/socialism/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "socialismo_planificacion",
+      "nombre": "Communism / Planned socialism",
+      "definida_en": 3,
+      "parcial": true,
+      "rangos": {
+        "coord_economica": [
+          0.65,
+          1.0
+        ],
+        "redistribucion": [
+          0.65,
+          1.0
+        ],
+        "orden_social": null,
+        "poder_jurisprudencia": [
+          -0.15,
+          1.0
+        ]
+      },
+      "nota_corriente": "Prioritizes planned or public direction of resources and substantive equality over the market.",
+      "detalles": {
+        "cita": "“From each according to their ability, to each according to their needs.” — Karl Marx.",
+        "origen": "Arises in the 19th century alongside critiques of classical political economy and the industrial labor movement, inspiring various planning models in the 20th century.",
+        "defienden": "Public or collective ownership of the means of production and overcoming profit-driven resource allocation.",
+        "economia_politica": "Centralized or publicly coordinated economic planning to steer production toward defined social goals.",
+        "filosofia_etica": "Substantive equality, emancipation from wage labor, and primacy of collective interest over private property.",
+        "autores": [
+          {
+            "nombre": "Karl Marx",
+            "epoca": "1818–1883",
+            "aporte": "Analyzed the dynamics of capital and grounded historical materialism in “Capital.”",
+            "ilustracion": "assets/autores/karl-marx.webp"
+          },
+          {
+            "nombre": "Friedrich Engels",
+            "epoca": "1820–1895",
+            "aporte": "Co-wrote “The Communist Manifesto” and developed socialist theory alongside Marx.",
+            "ilustracion": "assets/autores/engels.webp"
+          },
+          {
+            "nombre": "Oskar Lange",
+            "epoca": "1904–1965",
+            "aporte": "Debated the mathematical feasibility of economic calculation in planned systems.",
+            "ilustracion": "assets/autores/oskar-lange.webp"
+          }
+        ],
+        "curiosidades": "In the 1920s and 1930s it was central to the famous “economic calculation debate” against Ludwig von Mises and Friedrich Hayek.",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Communism",
+            "url": "https://en.wikipedia.org/wiki/Communism"
+          },
+          {
+            "titulo": "Wikipedia · Planned economy",
+            "url": "https://en.wikipedia.org/wiki/Planned_economy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "anarquismo_social",
+      "nombre": "Libertarian socialism / social anarchism",
+      "definida_en": 4,
+      "parcial": false,
+      "rangos": {
+        "coord_economica": [
+          -0.3,
+          0.85
+        ],
+        "redistribucion": [
+          -0.1,
+          0.9
+        ],
+        "orden_social": [
+          -1.0,
+          -0.35
+        ],
+        "poder_jurisprudencia": [
+          -1.0,
+          -0.6
+        ]
+      },
+      "nota_corriente": "Rejects the state and coercive hierarchies, favoring free association, mutual aid, and self-management.",
+      "detalles": {
+        "cita": "“Liberty without socialism is privilege, injustice; and socialism without liberty is slavery and brutality.” — Mikhail Bakunin.",
+        "origen": "Develops in the 19th century within anti-authoritarian currents of the European labor movement and mutualism.",
+        "defienden": "Communal autonomy, bottom-up free federation, horizontal assemblies, and abolition of imposed authority.",
+        "economia_politica": "Worker self-management, cooperativism, mutualism, or horizontal collectivization without state or boss coercion.",
+        "filosofia_etica": "Full freedom inseparable from equality and mutual aid as a driver of human cooperation.",
+        "autores": [
+          {
+            "nombre": "Pierre-Joseph Proudhon",
+            "epoca": "1809–1865",
+            "aporte": "Promoted mutualism and federalism as alternatives to concentrated property and the state.",
+            "ilustracion": "assets/autores/pierre-joseph-proudhon.webp"
+          },
+          {
+            "nombre": "Peter Kropotkin",
+            "epoca": "1842–1921",
+            "aporte": "Argued for the evolutionary and social role of cooperation in “Mutual Aid.”",
+            "ilustracion": "assets/autores/kropotkin.webp"
+          },
+          {
+            "nombre": "Emma Goldman",
+            "epoca": "1869–1940",
+            "aporte": "Integrated critique of the state with defense of individual and cultural emancipation.",
+            "ilustracion": "assets/autores/goldman.webp"
+          }
+        ],
+        "curiosidades": "Peter Kropotkin was a naturalist and geographer who developed his theory of mutual aid by observing wildlife in Siberia as a reply to social Darwinism.",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Libertarian socialism",
+            "url": "https://en.wikipedia.org/wiki/Libertarian_socialism"
+          },
+          {
+            "titulo": "Wikipedia · Anarchism",
+            "url": "https://en.wikipedia.org/wiki/Anarchism"
+          }
+        ]
+      }
+    },
+    {
+      "id": "conservadurismo_liberal",
+      "nombre": "Liberal conservatism",
+      "definida_en": 4,
+      "parcial": false,
+      "rangos": {
+        "coord_economica": [
+          -0.85,
+          -0.15
+        ],
+        "redistribucion": [
+          -0.7,
+          0.0
+        ],
+        "orden_social": [
+          0.15,
+          0.8
+        ],
+        "poder_jurisprudencia": [
+          -0.7,
+          0.15
+        ]
+      },
+      "nota_corriente": "Combines support for markets and fiscal restraint with appreciation for historical continuity and the family.",
+      "detalles": {
+        "cita": "“A state without the means of some change is without the means of its conservation.” — Edmund Burke.",
+        "origen": "Takes shape between the 18th and 20th centuries by uniting respect for inherited institutions with constitutionalism and free markets.",
+        "defienden": "Institutional stability, cultural heritage, autonomy of family and civil society, and personal responsibility.",
+        "economia_politica": "Open markets, private property, budgetary discipline, and restraint in public spending and debt.",
+        "filosofia_etica": "Prudence toward utopian blueprints and trust in norms and institutions tested by historical experience.",
+        "autores": [
+          {
+            "nombre": "Edmund Burke",
+            "epoca": "1729–1797",
+            "aporte": "Defended gradual reform and respect for institutions against revolutionary ruptures.",
+            "ilustracion": "assets/autores/burke.webp"
+          },
+          {
+            "nombre": "Alexis de Tocqueville",
+            "epoca": "1805–1859",
+            "aporte": "Analyzed the balance between liberty, mores, and civic associations in “Democracy in America.”",
+            "ilustracion": "assets/autores/alexis-de-tocqueville.webp"
+          },
+          {
+            "nombre": "Raymond Aron",
+            "epoca": "1905–1983",
+            "aporte": "Combined political realism, defense of pluralistic liberties, and critique of rigid ideologies.",
+            "ilustracion": "assets/autores/aron.webp"
+          }
+        ],
+        "curiosidades": "Edmund Burke supported the grievances of the American colonies while sharply criticizing the French Revolution of 1789.",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Liberal conservatism",
+            "url": "https://en.wikipedia.org/wiki/Liberal_conservatism"
+          },
+          {
+            "titulo": "Stanford Encyclopedia · Conservatism",
+            "url": "https://plato.stanford.edu/entries/conservatism/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "conservadurismo_tradicional",
+      "nombre": "Traditional / social conservatism",
+      "definida_en": 3,
+      "parcial": false,
+      "rangos": {
+        "coord_economica": [
+          -0.5,
+          0.3
+        ],
+        "redistribucion": [
+          -0.3,
+          0.45
+        ],
+        "orden_social": [
+          0.4,
+          1.0
+        ],
+        "poder_jurisprudencia": [
+          -0.2,
+          0.75
+        ]
+      },
+      "nota_corriente": "Places central weight on a shared moral order, cultural continuity, and the authority of institutions.",
+      "detalles": {
+        "cita": "“Society is indeed a contract... between those who are living, those who are dead, and those who are to be born.” — Edmund Burke.",
+        "origen": "Has roots in classical political philosophy and in Enlightenment and Romantic reactions against the dissolution of traditional ties.",
+        "defienden": "Intergenerational transmission, traditional values, cultural cohesion, local rootedness, and respect for common norms.",
+        "economia_politica": "Pragmatic balance between private initiative and protection of social, agrarian, artisanal, and family fabric.",
+        "filosofia_etica": "Sense of duty, historical belonging, and conviction that people need shared roots to live together.",
+        "autores": [
+          {
+            "nombre": "Russell Kirk",
+            "epoca": "1918–1994",
+            "aporte": "Synthesized the principles of modern traditional conservatism in “The Conservative Mind.”",
+            "ilustracion": "assets/autores/kirk.webp"
+          },
+          {
+            "nombre": "Roger Scruton",
+            "epoca": "1944–2020",
+            "aporte": "Defended cultural rootedness, aesthetics, and the common home as pillars of civic life.",
+            "ilustracion": "assets/autores/roger-scruton.webp"
+          },
+          {
+            "nombre": "T. S. Eliot",
+            "epoca": "1888–1965",
+            "aporte": "Reflected on cultural continuity and tradition in “Notes Towards the Definition of Culture.”",
+            "ilustracion": "assets/autores/eliot.webp"
+          }
+        ],
+        "curiosidades": "Roger Scruton introduced the concept of “oikophilia” (love of home and familiar surroundings) to explain intergenerational care.",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Conservatism",
+            "url": "https://en.wikipedia.org/wiki/Conservatism"
+          },
+          {
+            "titulo": "Wikipedia · Traditionalist conservatism",
+            "url": "https://en.wikipedia.org/wiki/Traditionalist_conservatism"
+          }
+        ]
+      }
+    },
+    {
+      "id": "comunitarismo_democristiana",
+      "nombre": "Communitarianism / Christian humanism",
+      "definida_en": 4,
+      "parcial": false,
+      "rangos": {
+        "coord_economica": [
+          -0.3,
+          0.45
+        ],
+        "redistribucion": [
+          0.1,
+          0.7
+        ],
+        "orden_social": [
+          0.25,
+          0.85
+        ],
+        "poder_jurisprudencia": [
+          -0.5,
+          0.25
+        ]
+      },
+      "nota_corriente": "Views the person as a social being bound to community, balancing solidarity, subsidiarity, and shared norms.",
+      "detalles": {
+        "cita": "“The common good is the good of the whole community and of each of the persons who compose it.” — Jacques Maritain.",
+        "origen": "Develops between the late 19th and 20th centuries from personalism, Christian social thought, and contemporary communitarian debate.",
+        "defienden": "Human dignity, the common good, the principle of subsidiarity (letting the closest level decide first), and mutual support.",
+        "economia_politica": "Social market economy with civic responsibility, support for families, and solidarity with the most vulnerable.",
+        "filosofia_etica": "Human relationality: the person flourishes within concrete communities, harmonizing rights and duties.",
+        "autores": [
+          {
+            "nombre": "Jacques Maritain",
+            "epoca": "1882–1973",
+            "aporte": "Articulated integral humanism and contributed to the Universal Declaration of Human Rights.",
+            "ilustracion": "assets/autores/maritain.webp"
+          },
+          {
+            "nombre": "Charles Taylor",
+            "epoca": "b. 1931",
+            "aporte": "Analyzed modern identity and the constitutive role of community in moral life.",
+            "ilustracion": "assets/autores/taylor.webp"
+          },
+          {
+            "nombre": "Michael Sandel",
+            "epoca": "b. 1953",
+            "aporte": "Questioned neutral individualism and defended civic debate over the common good.",
+            "ilustracion": "assets/autores/sandel.webp"
+          }
+        ],
+        "curiosidades": "The principle of subsidiarity born in this tradition is today one of the legal pillars of the European Union.",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Communitarianism",
+            "url": "https://en.wikipedia.org/wiki/Communitarianism"
+          },
+          {
+            "titulo": "Stanford Encyclopedia · Communitarianism",
+            "url": "https://plato.stanford.edu/entries/communitarianism/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "republicanismo_civico",
+      "nombre": "Civic republicanism",
+      "definida_en": 3,
+      "parcial": false,
+      "rangos": {
+        "coord_economica": [
+          -0.35,
+          0.3
+        ],
+        "redistribucion": [
+          0.0,
+          0.55
+        ],
+        "orden_social": [
+          -0.4,
+          0.4
+        ],
+        "poder_jurisprudencia": [
+          -0.9,
+          -0.3
+        ]
+      },
+      "nota_corriente": "Emphasizes liberty as non-domination, strict control of power, and civic virtue.",
+      "detalles": {
+        "cita": "“We are servants of the law in order that we may be free.” — Cicero.",
+        "origen": "Traces back to the Roman Republic and Renaissance city-states, and was revitalized in the late 20th century by neo-republican political theory.",
+        "defienden": "Ensuring no one is subject to another's arbitrary will—whether a ruler or a private actor—through impartial laws.",
+        "economia_politica": "Markets regulated to prevent monopolies and extreme dependence, securing material independence for citizens.",
+        "filosofia_etica": "Liberty as non-domination, civic virtue, public participation, and active vigilance against corruption.",
+        "autores": [
+          {
+            "nombre": "Niccolò Machiavelli",
+            "epoca": "1469–1527",
+            "aporte": "Studied the institutions and civic conflict that preserve republics in his “Discourses.”",
+            "ilustracion": "assets/autores/maquiavelo.webp"
+          },
+          {
+            "nombre": "Philip Pettit",
+            "epoca": "b. 1945",
+            "aporte": "Formalized liberty as non-domination in his work “Republicanism.”",
+            "ilustracion": "assets/autores/pettit.webp"
+          },
+          {
+            "nombre": "Quentin Skinner",
+            "epoca": "b. 1940",
+            "aporte": "Recovered the historical tradition of neo-Roman liberty beyond mere non-interference.",
+            "ilustracion": "assets/autores/skinner.webp"
+          }
+        ],
+        "curiosidades": "For republicanism, even a “benevolent master” who never interferes still deprives one of freedom because they retain the arbitrary power to do so.",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Civic republicanism",
+            "url": "https://en.wikipedia.org/wiki/Civic_republicanism"
+          },
+          {
+            "titulo": "Stanford Encyclopedia · Republicanism",
+            "url": "https://plato.stanford.edu/entries/republicanism/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "estatismo_autoritario",
+      "nombre": "Statist authoritarianism",
+      "definida_en": 4,
+      "parcial": false,
+      "rangos": {
+        "coord_economica": [
+          0.15,
+          0.9
+        ],
+        "redistribucion": [
+          -0.5,
+          0.75
+        ],
+        "orden_social": [
+          0.35,
+          1.0
+        ],
+        "poder_jurisprudencia": [
+          0.4,
+          1.0
+        ]
+      },
+      "nota_corriente": "Prioritizes centralized state authority, unity, and order over individual autonomy or broad checks and balances.",
+      "detalles": {
+        "cita": "“Covenants, without the sword, are but words.” — Thomas Hobbes.",
+        "origen": "Linked to the formation of the modern sovereign state in the 17th century and to doctrines of executive concentration during internal crises.",
+        "defienden": "State executive strength, internal political unity, social discipline, and rapid, centralized decision-making capacity.",
+        "economia_politica": "Direction, state tutelage, or strategic planning subordinated to security, cohesion, and state ends.",
+        "filosofia_etica": "Primacy of order, sovereignty, and collective stability over fragmented pluralism or dissent.",
+        "autores": [
+          {
+            "nombre": "Thomas Hobbes",
+            "epoca": "1588–1679",
+            "aporte": "Justified an indivisible sovereign to prevent social chaos in “Leviathan.”",
+            "ilustracion": "assets/autores/thomas-hobbes.webp"
+          },
+          {
+            "nombre": "Jean Bodin",
+            "epoca": "1530–1596",
+            "aporte": "Defined the modern concept of absolute and perpetual state sovereignty.",
+            "ilustracion": "assets/autores/bodin.webp"
+          },
+          {
+            "nombre": "Carl Schmitt",
+            "epoca": "1888–1985",
+            "aporte": "Analyzed the political exception and concentration of sovereign decision in the state.",
+            "ilustracion": "assets/autores/carl-schmitt.webp"
+          }
+        ],
+        "curiosidades": "Thomas Hobbes wrote “Leviathan” in exile during the English Civil War, preoccupied with how to prevent the collapse of civil order.",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Statism",
+            "url": "https://en.wikipedia.org/wiki/Statism"
+          },
+          {
+            "titulo": "Wikipedia · Authoritarianism",
+            "url": "https://en.wikipedia.org/wiki/Authoritarianism"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pragmatismo_moderado",
+      "nombre": "Moderate profile / gradualist pragmatism",
+      "definida_en": 4,
+      "parcial": false,
+      "rangos": {
+        "coord_economica": [
+          -0.3,
+          0.3
+        ],
+        "redistribucion": [
+          -0.3,
+          0.3
+        ],
+        "orden_social": [
+          -0.3,
+          0.3
+        ],
+        "poder_jurisprudencia": [
+          -0.3,
+          0.3
+        ]
+      },
+      "nota_corriente": "Appears when your answers fall within a moderate band across all four axes, favoring gradual adjustments and practical solutions.",
+      "detalles": {
+        "cita": "“Work for the elimination of concrete evils rather than for the realization of abstract goods.” — Karl Popper.",
+        "origen": "Draws on philosophical pragmatism and 20th-century public policy theory focused on step-by-step empirical learning.",
+        "defienden": "Verifiable practical solutions, broad agreements, gradual reforms, and balance between private initiative and public action.",
+        "economia_politica": "Flexible combination of market incentives and public regulation depending on evidence for each specific problem.",
+        "filosofia_etica": "Gradualism, fallibilism (accepting that any policy can err and be corrected), and caution toward irreversible changes.",
+        "autores": [
+          {
+            "nombre": "Karl Popper",
+            "epoca": "1902–1994",
+            "aporte": "Defended “piecemeal social engineering” over total redesigns in “The Open Society and Its Enemies.”",
+            "ilustracion": "assets/autores/karl-popper.webp"
+          },
+          {
+            "nombre": "Charles E. Lindblom",
+            "epoca": "1917–2018",
+            "aporte": "Formulated incrementalism and successive adjustments in public decision-making.",
+            "ilustracion": "assets/autores/lindblom.webp"
+          },
+          {
+            "nombre": "John Dewey",
+            "epoca": "1859–1952",
+            "aporte": "Conceived public policies as experimental hypotheses subject to democratic review.",
+            "ilustracion": "assets/autores/dewey.webp"
+          }
+        ],
+        "curiosidades": "Charles E. Lindblom humorously called this method “the science of ‘muddling through’” in a famous 1959 paper.",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Pragmatism",
+            "url": "https://en.wikipedia.org/wiki/Pragmatism"
+          },
+          {
+            "titulo": "Wikipedia · Incrementalism",
+            "url": "https://en.wikipedia.org/wiki/Incrementalism"
+          }
+        ]
+      }
+    }
+  ]
+}
