@@ -1,0 +1,397 @@
+[
+  {
+    "nombre": "perfil_mixto_completo",
+    "solo_nucleo": false,
+    "dominios_prioritarios": [
+      "economia_mercados"
+    ],
+    "respuestas": {
+      "Q01": 0.5,
+      "Q03": -0.5,
+      "Q04": 2,
+      "Q06": 2,
+      "Q02": "B",
+      "Q05": "B",
+      "Q25": 2,
+      "Q26": 2,
+      "Q27": 2,
+      "Q28": 2,
+      "Q29": -0.5,
+      "Q30": 0.5,
+      "Q07": -0.5,
+      "Q09": 0.5,
+      "Q08": 2,
+      "Q10": 2,
+      "Q11": 2,
+      "Q12": 2,
+      "Q31": "B",
+      "Q32": 0.5,
+      "Q33": -0.5,
+      "Q34": 2,
+      "Q35": 2,
+      "Q36": 2,
+      "Q13": -0.5,
+      "Q15": 0.5,
+      "Q14": 2,
+      "Q17": 2,
+      "Q18": 2,
+      "Q40": 2,
+      "Q41": 2,
+      "Q42": 2,
+      "Q43": 2,
+      "Q37": 2,
+      "Q38": 2,
+      "Q39": 2,
+      "Q19": 0.5,
+      "Q21": -0.5,
+      "Q22": "B",
+      "Q23": 2,
+      "Q24": 2,
+      "Q44": 2,
+      "Q48": 2,
+      "Q16": 2,
+      "Q20": "B",
+      "Q45": 2,
+      "Q46": 0.5,
+      "Q47": -0.5
+    },
+    "esperado": {
+      "bank_version": "v6",
+      "scoring_version": "1.3.1",
+      "modo": "completo_48",
+      "ejes": {
+        "coord_economica": {
+          "score": -0.1667,
+          "se": 0.1618,
+          "ic95": [
+            -0.4838,
+            0.1504
+          ],
+          "sigma": 0.5596,
+          "n_respondidas": 12,
+          "cobertura": 1.0,
+          "pct_depende_pref": 0.0,
+          "tension_alta": false,
+          "estado": "ok",
+          "contribuciones": [
+            {
+              "id": "Q02",
+              "enunciado": "Si el precio de un producto básico, como el pan o la leche, se dispara por una crisis de suministro, ¿qué prefieres?",
+              "posicion": 1.0,
+              "impacto": 0.0606
+            },
+            {
+              "id": "Q05",
+              "enunciado": "Para repartir un recurso limitado que usa mucha gente, como las plazas de aparcamiento de un barrio, ¿qué criterio prefieres?",
+              "posicion": -1.0,
+              "impacto": -0.0606
+            },
+            {
+              "id": "Q01",
+              "enunciado": "Es mejor que los precios los acuerden compradores y vendedores a que los fije una autoridad.",
+              "posicion": -0.5,
+              "impacto": -0.0455
+            }
+          ]
+        },
+        "redistribucion": {
+          "score": -0.25,
+          "se": 0.1601,
+          "ic95": [
+            -0.5638,
+            0.0638
+          ],
+          "sigma": 0.433,
+          "n_respondidas": 12,
+          "cobertura": 1.0,
+          "pct_depende_pref": 0.0,
+          "tension_alta": false,
+          "estado": "ok",
+          "contribuciones": [
+            {
+              "id": "Q07",
+              "enunciado": "Quien gana más debería pagar un porcentaje mayor de impuestos sobre sus ingresos.",
+              "posicion": -0.5,
+              "impacto": -0.0417
+            },
+            {
+              "id": "Q09",
+              "enunciado": "Todas las personas deberían pagar el mismo porcentaje de impuestos sobre sus ingresos, ganen lo que ganen.",
+              "posicion": -0.5,
+              "impacto": -0.0417
+            },
+            {
+              "id": "Q08",
+              "enunciado": "Sobre el nivel de impuestos y de ayudas económicas del Estado, ¿qué prefieres?",
+              "posicion": -0.5,
+              "impacto": -0.0417
+            }
+          ]
+        },
+        "orden_social": {
+          "score": -0.0548,
+          "se": 0.1558,
+          "ic95": [
+            -0.3603,
+            0.2506
+          ],
+          "sigma": 0.5095,
+          "n_respondidas": 13,
+          "cobertura": 1.0,
+          "pct_depende_pref": 0.0,
+          "tension_alta": false,
+          "estado": "ok",
+          "contribuciones": [
+            {
+              "id": "Q13",
+              "enunciado": "Es mejor conservar las costumbres tradicionales de una comunidad, como sus fiestas y su forma de vivir.",
+              "posicion": -0.5,
+              "impacto": -0.0403
+            },
+            {
+              "id": "Q15",
+              "enunciado": "Es mejor que cada persona elija su propio estilo de vida, siga o no las costumbres tradicionales.",
+              "posicion": -0.5,
+              "impacto": -0.0403
+            },
+            {
+              "id": "Q14",
+              "enunciado": "Si una persona vive con hábitos distintos a los de su entorno sin incumplir ninguna ley, ¿qué prefieres?",
+              "posicion": 0.5,
+              "impacto": 0.0403
+            }
+          ]
+        },
+        "poder_jurisprudencia": {
+          "score": -0.125,
+          "se": 0.1601,
+          "ic95": [
+            -0.4388,
+            0.1888
+          ],
+          "sigma": 0.4621,
+          "n_respondidas": 12,
+          "cobertura": 1.0,
+          "pct_depende_pref": 0.0,
+          "tension_alta": false,
+          "estado": "ok",
+          "contribuciones": [
+            {
+              "id": "Q19",
+              "enunciado": "Es mejor proteger siempre las garantías de quien es investigado o juzgado: juicio justo, derecho a defensa, presunción de inocencia y límites a las detenciones y los registros.",
+              "posicion": -0.5,
+              "impacto": -0.0417
+            },
+            {
+              "id": "Q21",
+              "enunciado": "En los delitos graves es mejor reducir garantías, como los trámites del juicio o los límites a detenciones y registros, para actuar más rápido.",
+              "posicion": -0.5,
+              "impacto": -0.0417
+            },
+            {
+              "id": "Q23",
+              "enunciado": "Ante una emergencia grave, ¿qué prefieres sobre las medidas excepcionales del Gobierno?",
+              "posicion": -0.5,
+              "impacto": -0.0417
+            }
+          ]
+        }
+      },
+      "indicadores_calidad": {
+        "aquiescencia_media": 0.0,
+        "sesgo_primera_mostrada": null,
+        "magnitud_media_respuesta": 0.5135,
+        "espejos": [
+          {
+            "par": "Q07-Q09",
+            "discrepancia": 0.0
+          },
+          {
+            "par": "Q13-Q15",
+            "discrepancia": 0.0
+          },
+          {
+            "par": "Q19-Q21",
+            "discrepancia": 0.0
+          }
+        ],
+        "banderas": []
+      }
+    }
+  },
+  {
+    "nombre": "solo_nucleo_16",
+    "solo_nucleo": true,
+    "dominios_prioritarios": [],
+    "respuestas": {
+      "Q01": 1.0,
+      "Q04": 1,
+      "Q06": 1,
+      "Q25": 1,
+      "Q07": 1.0,
+      "Q08": 1,
+      "Q10": 1,
+      "Q36": 1,
+      "Q13": 1.0,
+      "Q14": 1,
+      "Q17": 1,
+      "Q18": 1,
+      "Q19": 1.0,
+      "Q22": "A",
+      "Q23": 1,
+      "Q24": 1
+    },
+    "esperado": {
+      "bank_version": "v6",
+      "scoring_version": "1.3.1",
+      "modo": "nucleo_16",
+      "ejes": {
+        "coord_economica": {
+          "score": -0.5,
+          "se": 0.2606,
+          "ic95": [
+            -1.0,
+            0.0107
+          ],
+          "sigma": 0.866,
+          "n_respondidas": 4,
+          "cobertura": 1.0,
+          "pct_depende_pref": 0.0,
+          "tension_alta": true,
+          "estado": "ok",
+          "contribuciones": [
+            {
+              "id": "Q01",
+              "enunciado": "Es mejor que los precios los acuerden compradores y vendedores a que los fije una autoridad.",
+              "posicion": -1.0,
+              "impacto": -0.25
+            },
+            {
+              "id": "Q04",
+              "enunciado": "En la economía en general, ¿cómo prefieres que se decida qué se produce y a qué precio?",
+              "posicion": -1.0,
+              "impacto": -0.25
+            },
+            {
+              "id": "Q06",
+              "enunciado": "Cuando el Estado ayuda a familias con pocos recursos, ¿qué prefieres?",
+              "posicion": -1.0,
+              "impacto": -0.25
+            }
+          ]
+        },
+        "redistribucion": {
+          "score": 0.0,
+          "se": 0.2606,
+          "ic95": [
+            -0.5107,
+            0.5107
+          ],
+          "sigma": 1.0,
+          "n_respondidas": 4,
+          "cobertura": 1.0,
+          "pct_depende_pref": 0.0,
+          "tension_alta": true,
+          "estado": "ok",
+          "contribuciones": [
+            {
+              "id": "Q07",
+              "enunciado": "Quien gana más debería pagar un porcentaje mayor de impuestos sobre sus ingresos.",
+              "posicion": 1.0,
+              "impacto": 0.25
+            },
+            {
+              "id": "Q08",
+              "enunciado": "Sobre el nivel de impuestos y de ayudas económicas del Estado, ¿qué prefieres?",
+              "posicion": -1.0,
+              "impacto": -0.25
+            },
+            {
+              "id": "Q10",
+              "enunciado": "Para ayudar a personas con dificultades económicas, ¿qué prefieres?",
+              "posicion": 1.0,
+              "impacto": 0.25
+            }
+          ]
+        },
+        "orden_social": {
+          "score": 0.0,
+          "se": 0.2606,
+          "ic95": [
+            -0.5107,
+            0.5107
+          ],
+          "sigma": 1.0,
+          "n_respondidas": 4,
+          "cobertura": 1.0,
+          "pct_depende_pref": 0.0,
+          "tension_alta": true,
+          "estado": "ok",
+          "contribuciones": [
+            {
+              "id": "Q13",
+              "enunciado": "Es mejor conservar las costumbres tradicionales de una comunidad, como sus fiestas y su forma de vivir.",
+              "posicion": 1.0,
+              "impacto": 0.25
+            },
+            {
+              "id": "Q14",
+              "enunciado": "Si una persona vive con hábitos distintos a los de su entorno sin incumplir ninguna ley, ¿qué prefieres?",
+              "posicion": 1.0,
+              "impacto": 0.25
+            },
+            {
+              "id": "Q17",
+              "enunciado": "Sobre cómo se organiza una familia, por ejemplo quién trabaja fuera de casa, quién cuida de los hijos y cómo se reparten las tareas, ¿qué prefieres?",
+              "posicion": -1.0,
+              "impacto": -0.25
+            }
+          ]
+        },
+        "poder_jurisprudencia": {
+          "score": -0.5,
+          "se": 0.2606,
+          "ic95": [
+            -1.0,
+            0.0107
+          ],
+          "sigma": 0.866,
+          "n_respondidas": 4,
+          "cobertura": 1.0,
+          "pct_depende_pref": 0.0,
+          "tension_alta": true,
+          "estado": "ok",
+          "contribuciones": [
+            {
+              "id": "Q19",
+              "enunciado": "Es mejor proteger siempre las garantías de quien es investigado o juzgado: juicio justo, derecho a defensa, presunción de inocencia y límites a las detenciones y los registros.",
+              "posicion": -1.0,
+              "impacto": -0.25
+            },
+            {
+              "id": "Q22",
+              "enunciado": "Ante un delito grave, ¿qué prefieres priorizar?",
+              "posicion": -1.0,
+              "impacto": -0.25
+            },
+            {
+              "id": "Q23",
+              "enunciado": "Ante una emergencia grave, ¿qué prefieres sobre las medidas excepcionales del Gobierno?",
+              "posicion": -1.0,
+              "impacto": -0.25
+            }
+          ]
+        }
+      },
+      "indicadores_calidad": {
+        "aquiescencia_media": 1.0,
+        "sesgo_primera_mostrada": null,
+        "magnitud_media_respuesta": 1.0,
+        "espejos": [],
+        "banderas": [
+          "aquiescencia_extrema"
+        ]
+      }
+    }
+  }
+]

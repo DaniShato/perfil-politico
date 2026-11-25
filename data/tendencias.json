@@ -1,0 +1,879 @@
+{
+  "version": "0.7.0-equilibrado",
+  "nota_revision": "Corrientes orientativas de referencia en clave política, económica y filosófica para uso internacional.",
+  "familias": [
+    {
+      "id": "anarcocapitalismo",
+      "nombre": "Anarcocapitalismo / voluntarismo de mercado",
+      "definida_en": 4,
+      "parcial": false,
+      "rangos": {
+        "coord_economica": [
+          -1.0,
+          -0.8
+        ],
+        "redistribucion": [
+          -1.0,
+          -0.8
+        ],
+        "orden_social": [
+          -1.0,
+          -0.3
+        ],
+        "poder_jurisprudencia": [
+          -1.0,
+          -0.75
+        ]
+      },
+      "nota_corriente": "Propone prescindir del Estado monopolista y resolver la seguridad, la justicia y los servicios mediante acuerdos voluntarios y mercados.",
+      "detalles": {
+        "cita": "«El Estado es esa gran ficción a través de la cual todo el mundo se esfuerza por vivir a expensas de todo el mundo» — Frédéric Bastiat (antecedente citado en esta tradición).",
+        "origen": "Se articula en el siglo XX a partir de la tradición libertaria estadounidense y la Escuela Austriaca, combinando individualismo radical con teoría económica del mercado.",
+        "defienden": "Contratos libres, propiedad privada sin coerción estatal, agencias privadas de arbitraje y seguridad, y competencia abierta en todos los ámbitos.",
+        "economia_politica": "Ausencia de impuestos coactivos, monedas en competencia y provisión voluntaria de infraestructuras, justicia y servicios.",
+        "filosofia_etica": "Principio de no agresión, soberanía individual y legitimidad exclusiva de los vínculos consentidos.",
+        "autores": [
+          {
+            "nombre": "Murray Rothbard",
+            "epoca": "1926–1995",
+            "aporte": "Sistematizó el anarcocapitalismo moderno en «Hacia una nueva libertad».",
+            "ilustracion": "assets/autores/murray-rothbard.webp"
+          },
+          {
+            "nombre": "David Friedman",
+            "epoca": "n. 1945",
+            "aporte": "Desarrolló su defensa desde el análisis económico del derecho en «La maquinaria de la libertad».",
+            "ilustracion": "assets/autores/david-friedman.webp"
+          },
+          {
+            "nombre": "Peter Leeson",
+            "epoca": "n. 1979",
+            "aporte": "Investigó órdenes privados sin Estado en trabajos como «Anarchy Unbound».",
+            "ilustracion": "assets/autores/leeson.webp"
+          }
+        ],
+        "curiosidades": "Murray Rothbard acuñó el término «anarcocapitalismo» a mediados del siglo XX; en zonas cercanas, sus propuestas prácticas se solapan con el libertarismo minarquista.",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Anarcocapitalismo",
+            "url": "https://es.wikipedia.org/wiki/Anarcocapitalismo"
+          },
+          {
+            "titulo": "Wikipedia · Voluntarismo (política)",
+            "url": "https://es.wikipedia.org/wiki/Voluntarismo_(pol%C3%ADtica)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "libertarismo_mercado",
+      "nombre": "Libertarismo minarquista",
+      "definida_en": 4,
+      "parcial": false,
+      "rangos": {
+        "coord_economica": [
+          -1.0,
+          -0.5
+        ],
+        "redistribucion": [
+          -0.95,
+          -0.4
+        ],
+        "orden_social": [
+          -1.0,
+          -0.15
+        ],
+        "poder_jurisprudencia": [
+          -0.9,
+          -0.3
+        ]
+      },
+      "nota_corriente": "Defiende la autonomía individual plena, los mercados libres y un Estado mínimo acotado a funciones básicas como justicia y seguridad.",
+      "detalles": {
+        "cita": "«Los individuos tienen derechos, y hay cosas que ninguna persona o grupo puede hacerles sin violar esos derechos» — Robert Nozick.",
+        "origen": "Surge en el siglo XX como desarrollo sistemático del liberalismo clásico, con fuerte impulso en la filosofía política y la economía anglosajona.",
+        "defienden": "Propiedad privada robusta, acuerdos libres entre personas y un Estado mínimo limitado a proteger frente a la fuerza, el robo y el fraude.",
+        "economia_politica": "Competencia abierta, precios libres, baja carga fiscal y descentralización máxima de las decisiones económicas.",
+        "filosofia_etica": "Autonomía moral del individuo, libertad personal y primacía de la elección voluntaria sobre el mandato colectivo.",
+        "autores": [
+          {
+            "nombre": "Robert Nozick",
+            "epoca": "1938–2002",
+            "aporte": "Formulaciones filosóficas del Estado mínimo en «Anarquía, Estado y utopía».",
+            "ilustracion": "assets/autores/nozick.webp"
+          },
+          {
+            "nombre": "Milton Friedman",
+            "epoca": "1912–2006",
+            "aporte": "Defendió el vínculo entre libertad económica y política en «Capitalismo y libertad».",
+            "ilustracion": "assets/autores/milton-friedman.webp"
+          },
+          {
+            "nombre": "Ayn Rand",
+            "epoca": "1905–1982",
+            "aporte": "Popularizó el individualismo radical y el capitalismo de laissez-faire desde el objetivismo.",
+            "ilustracion": "assets/autores/rand.webp"
+          }
+        ],
+        "curiosidades": "A este modelo de Estado reducido a tribunales, policía y defensa se le conoce clásicamente como «Estado guardián nocturno».",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Minarquismo",
+            "url": "https://es.wikipedia.org/wiki/Minarquismo"
+          },
+          {
+            "titulo": "Stanford Encyclopedia · Libertarianism",
+            "url": "https://plato.stanford.edu/entries/libertarianism/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "liberalismo_clasico",
+      "nombre": "Tradición liberal clásica",
+      "definida_en": 4,
+      "parcial": false,
+      "rangos": {
+        "coord_economica": [
+          -0.8,
+          -0.25
+        ],
+        "redistribucion": [
+          -0.6,
+          0.05
+        ],
+        "orden_social": [
+          -0.8,
+          -0.05
+        ],
+        "poder_jurisprudencia": [
+          -0.95,
+          -0.3
+        ]
+      },
+      "nota_corriente": "Pone el acento en los derechos individuales, el Estado de derecho, la libertad económica y los contrapesos al poder.",
+      "detalles": {
+        "cita": "«Para que no se pueda abusar del poder, es preciso que el poder frene al poder» — Montesquieu.",
+        "origen": "Nace entre los siglos XVII y XVIII frente al absolutismo monárquico y el mercantilismo, consolidando el constitucionalismo moderno.",
+        "defienden": "Libertades civiles, igualdad ante la ley, separación de poderes, seguridad jurídica y límites claros a la autoridad gubernamental.",
+        "economia_politica": "Economía de mercado con reglas estables, apertura comercial y un Estado acotado a funciones esenciales y bienes públicos básicos.",
+        "filosofia_etica": "Dignidad y responsabilidad individual, escepticismo ante el poder concentrado y confianza en el orden espontáneo de la sociedad.",
+        "autores": [
+          {
+            "nombre": "John Locke",
+            "epoca": "1632–1704",
+            "aporte": "Sentó las bases del gobierno limitado y los derechos naturales a la vida, la libertad y la propiedad.",
+            "ilustracion": "assets/autores/locke.webp"
+          },
+          {
+            "nombre": "Adam Smith",
+            "epoca": "1723–1790",
+            "aporte": "Analizó la división del trabajo y la coordinación mediante precios en «La riqueza de las naciones».",
+            "ilustracion": "assets/autores/adam-smith.webp"
+          },
+          {
+            "nombre": "Friedrich Hayek",
+            "epoca": "1899–1992",
+            "aporte": "Explicó el papel del conocimiento disperso en los mercados y el Estado de derecho.",
+            "ilustracion": "assets/autores/friedrich-hayek.webp"
+          }
+        ],
+        "curiosidades": "La palabra «liberal» se usó por primera vez como etiqueta política en las Cortes de Cádiz de 1812, desde donde pasó al resto de Europa.",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Liberalismo clásico",
+            "url": "https://es.wikipedia.org/wiki/Liberalismo_cl%C3%A1sico"
+          },
+          {
+            "titulo": "Stanford Encyclopedia · Liberalism",
+            "url": "https://plato.stanford.edu/entries/liberalism/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "socioliberalismo",
+      "nombre": "Liberalismo igualitario / socioliberalismo",
+      "definida_en": 4,
+      "parcial": false,
+      "rangos": {
+        "coord_economica": [
+          -0.4,
+          0.2
+        ],
+        "redistribucion": [
+          -0.05,
+          0.5
+        ],
+        "orden_social": [
+          -0.9,
+          -0.2
+        ],
+        "poder_jurisprudencia": [
+          -0.8,
+          -0.1
+        ]
+      },
+      "nota_corriente": "Combina libertades civiles amplias y economía de mercado con políticas públicas orientadas a ampliar oportunidades reales.",
+      "detalles": {
+        "cita": "«La justicia es la primera virtud de las instituciones sociales, como la verdad lo es de los sistemas de pensamiento» — John Rawls.",
+        "origen": "Emerge a finales del siglo XIX y se consolida en el XX al revisar el liberalismo clásico para integrar justicia social y derechos efectivos.",
+        "defienden": "Igualdad real de oportunidades, libertades personales amplias, pluralismo cultural y protección frente a abusos privados y públicos.",
+        "economia_politica": "Mercado dinámico regulado con equidad, inversión pública en educación y sanidad, y redes básicas de apoyo.",
+        "filosofia_etica": "Autonomía efectiva: sostiene que la libertad formal requiere condiciones materiales y educativas para ejercerse de verdad.",
+        "autores": [
+          {
+            "nombre": "John Stuart Mill",
+            "epoca": "1806–1873",
+            "aporte": "Articuló la defensa de la libertad individual con una apertura gradual a reformas sociales.",
+            "ilustracion": "assets/autores/john-stuart-mill.webp"
+          },
+          {
+            "nombre": "John Rawls",
+            "epoca": "1921–2002",
+            "aporte": "Propuso el «velo de la ignorancia» y la justicia como equidad en «Una teoría de la justicia».",
+            "ilustracion": "assets/autores/rawls.webp"
+          },
+          {
+            "nombre": "Amartya Sen",
+            "epoca": "n. 1933",
+            "aporte": "Desarrolló el enfoque de las capacidades para medir la libertad real de las personas.",
+            "ilustracion": "assets/autores/sen.webp"
+          }
+        ],
+        "curiosidades": "El experimento mental del «velo de la ignorancia» de Rawls invita a diseñar las reglas sociales sin saber qué lugar ocupará uno al nacer.",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Socioliberalismo",
+            "url": "https://es.wikipedia.org/wiki/Socioliberalismo"
+          },
+          {
+            "titulo": "Stanford Encyclopedia · John Rawls",
+            "url": "https://plato.stanford.edu/entries/rawls/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "socialdemocracia",
+      "nombre": "Corriente socialdemócrata",
+      "definida_en": 3,
+      "parcial": false,
+      "rangos": {
+        "coord_economica": [
+          0.0,
+          0.5
+        ],
+        "redistribucion": [
+          0.3,
+          0.85
+        ],
+        "orden_social": null,
+        "poder_jurisprudencia": [
+          -0.8,
+          0.0
+        ]
+      },
+      "nota_corriente": "Apuesta por una economía mixta regulada, un Estado del bienestar sólido y mecanismos de redistribución.",
+      "detalles": {
+        "cita": "«El movimiento lo es todo, el objetivo final no es nada» — Eduard Bernstein.",
+        "origen": "Evoluciona desde el socialismo europeo de finales del siglo XIX hacia la vía parlamentaria y la construcción del Estado del bienestar tras 1945.",
+        "defienden": "Servicios públicos universales, negociación colectiva, protección social frente a riesgos vitales y democracia con garantías.",
+        "economia_politica": "Coordinación mixta entre empresa privada, regulación laboral y fiscalidad progresiva para financiar prestaciones públicas.",
+        "filosofia_etica": "Solidaridad social, ciudadanía plena y compromiso con reducir las desigualdades económicas sin suprimir el pluralismo.",
+        "autores": [
+          {
+            "nombre": "Eduard Bernstein",
+            "epoca": "1850–1932",
+            "aporte": "Teorizó el reformismo democrático y gradual frente a la vía revolucionaria.",
+            "ilustracion": "assets/autores/eduard-bernstein.webp"
+          },
+          {
+            "nombre": "T. H. Marshall",
+            "epoca": "1893–1981",
+            "aporte": "Definió los derechos sociales como complemento indispensable de los derechos civiles y políticos.",
+            "ilustracion": "assets/autores/marshall.webp"
+          },
+          {
+            "nombre": "Gösta Esping-Andersen",
+            "epoca": "n. 1947",
+            "aporte": "Clasificó los modelos comparados de Estado del bienestar en «Los tres mundos del Estado del bienestar».",
+            "ilustracion": "assets/autores/esping-andersen.webp"
+          }
+        ],
+        "curiosidades": "El modelo nórdico suele citarse como referencia empírica de esta corriente al combinar alta apertura comercial con amplia cobertura social.",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Socialdemocracia",
+            "url": "https://es.wikipedia.org/wiki/Socialdemocracia"
+          },
+          {
+            "titulo": "Wikipedia · Estado del bienestar",
+            "url": "https://es.wikipedia.org/wiki/Estado_del_bienestar"
+          }
+        ]
+      }
+    },
+    {
+      "id": "socialismo_democratico",
+      "nombre": "Socialismo democrático / reformista",
+      "definida_en": 3,
+      "parcial": false,
+      "rangos": {
+        "coord_economica": [
+          0.3,
+          0.85
+        ],
+        "redistribucion": [
+          0.5,
+          1.0
+        ],
+        "orden_social": null,
+        "poder_jurisprudencia": [
+          -0.7,
+          0.15
+        ]
+      },
+      "nota_corriente": "Busca democratizar la economía, ampliar la dirección pública y reforzar la igualdad material con garantías.",
+      "detalles": {
+        "cita": "«La democracia es subversiva porque introduce la igualdad donde antes reinaba la jerarquía» — Norberto Bobbio.",
+        "origen": "Se consolida en el siglo XX como alternativa tanto al capitalismo de libre mercado como al autoritarismo de partido único.",
+        "defienden": "Control colectivo o público sobre sectores estratégicos, democracia económica en la empresa, derechos laborales amplios y redistribución profunda.",
+        "economia_politica": "Planificación pública o cooperativa significativa y políticas activas para desmercantilizar necesidades básicas.",
+        "filosofia_etica": "Justicia distributiva, cooperación por encima de la competencia pura y extensión de la democracia a la esfera económica.",
+        "autores": [
+          {
+            "nombre": "Jean Jaurès",
+            "epoca": "1859–1914",
+            "aporte": "Defendió la síntesis inseparable entre república democrática y transformación socialista.",
+            "ilustracion": "assets/autores/jaures.webp"
+          },
+          {
+            "nombre": "Norberto Bobbio",
+            "epoca": "1909–2004",
+            "aporte": "Analizó el vínculo entre reglas democráticas, derechos individuales e igualdad social.",
+            "ilustracion": "assets/autores/norberto-bobbio.webp"
+          },
+          {
+            "nombre": "Michael Harrington",
+            "epoca": "1928–1989",
+            "aporte": "Impulsó el socialismo democrático contemporáneo y el estudio de la pobreza estructural.",
+            "ilustracion": "assets/autores/harrington.webp"
+          }
+        ],
+        "curiosidades": "A diferencia de la socialdemocracia moderna, aspira a transformar la propiedad de los sectores clave y no solo a redistribuir rentas.",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Socialismo democrático",
+            "url": "https://es.wikipedia.org/wiki/Socialismo_democr%C3%A1tico"
+          },
+          {
+            "titulo": "Stanford Encyclopedia · Socialism",
+            "url": "https://plato.stanford.edu/entries/socialism/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "socialismo_planificacion",
+      "nombre": "Comunismo / Socialismo de planificación",
+      "definida_en": 3,
+      "parcial": true,
+      "rangos": {
+        "coord_economica": [
+          0.65,
+          1.0
+        ],
+        "redistribucion": [
+          0.65,
+          1.0
+        ],
+        "orden_social": null,
+        "poder_jurisprudencia": [
+          -0.15,
+          1.0
+        ]
+      },
+      "nota_corriente": "Prioriza la dirección planificada o pública de los recursos y la igualdad sustantiva frente al mercado.",
+      "detalles": {
+        "cita": "«De cada cual según sus capacidades, a cada cual según sus necesidades» — Karl Marx.",
+        "origen": "Surge en el siglo XIX con la crítica de la economía política clásica y el movimiento obrero industrial, inspirando diversos modelos de planificación en el siglo XX.",
+        "defienden": "Propiedad pública o colectiva de los medios de producción y superación de la asignación de recursos basada en el lucro.",
+        "economia_politica": "Planificación económica centralizada o coordinada públicamente para orientar la producción hacia objetivos sociales definidos.",
+        "filosofia_etica": "Igualdad sustantiva, emancipación del trabajo asalariado y primacía del interés colectivo sobre la propiedad privada.",
+        "autores": [
+          {
+            "nombre": "Karl Marx",
+            "epoca": "1818–1883",
+            "aporte": "Analizó la dinámica del capital y fundamentó el materialismo histórico en «El capital».",
+            "ilustracion": "assets/autores/karl-marx.webp"
+          },
+          {
+            "nombre": "Friedrich Engels",
+            "epoca": "1820–1895",
+            "aporte": "Coescribió el «Manifiesto comunista» y desarrolló la teoría socialista junto a Marx.",
+            "ilustracion": "assets/autores/engels.webp"
+          },
+          {
+            "nombre": "Oskar Lange",
+            "epoca": "1904–1965",
+            "aporte": "Debatió la viabilidad matemática del cálculo económico en sistemas planificados.",
+            "ilustracion": "assets/autores/oskar-lange.webp"
+          }
+        ],
+        "curiosidades": "En los años 20 y 30 protagonizó el célebre «debate sobre el cálculo económico» frente a Ludwig von Mises y Friedrich Hayek.",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Comunismo",
+            "url": "https://es.wikipedia.org/wiki/Comunismo"
+          },
+          {
+            "titulo": "Wikipedia · Economía planificada",
+            "url": "https://es.wikipedia.org/wiki/Econom%C3%ADa_planificada"
+          }
+        ]
+      }
+    },
+    {
+      "id": "anarquismo_social",
+      "nombre": "Socialismo libertario / anarquismo social",
+      "definida_en": 4,
+      "parcial": false,
+      "rangos": {
+        "coord_economica": [
+          -0.3,
+          0.85
+        ],
+        "redistribucion": [
+          -0.1,
+          0.9
+        ],
+        "orden_social": [
+          -1.0,
+          -0.35
+        ],
+        "poder_jurisprudencia": [
+          -1.0,
+          -0.6
+        ]
+      },
+      "nota_corriente": "Rechaza el Estado y las jerarquías coercitivas, apostando por la libre asociación, el apoyo mutuo y la autogestión.",
+      "detalles": {
+        "cita": "«La libertad sin el socialismo es el privilegio y la injusticia; el socialismo sin la libertad es la esclavitud y la brutalidad» — Mijaíl Bakunin.",
+        "origen": "Se desarrolla en el siglo XIX en el seno de las corrientes antiautoritarias del movimiento obrero europeo y el mutualismo.",
+        "defienden": "Autonomía comunitaria, federación libre desde abajo, asambleas horizontales y abolición de toda autoridad impuesta.",
+        "economia_politica": "Autogestión obrera, cooperativismo, mutualismo o colectivización horizontal sin coerción estatal ni patronal.",
+        "filosofia_etica": "Libertad plena inseparable de la igualdad y del apoyo mutuo como motor de la cooperación humana.",
+        "autores": [
+          {
+            "nombre": "Pierre-Joseph Proudhon",
+            "epoca": "1809–1865",
+            "aporte": "Impulsó el mutualismo y el federalismo como alternativas a la propiedad concentrada y al Estado.",
+            "ilustracion": "assets/autores/pierre-joseph-proudhon.webp"
+          },
+          {
+            "nombre": "Piotr Kropotkin",
+            "epoca": "1842–1921",
+            "aporte": "Argumentó el papel evolutivo y social de la cooperación en «El apoyo mutuo».",
+            "ilustracion": "assets/autores/kropotkin.webp"
+          },
+          {
+            "nombre": "Emma Goldman",
+            "epoca": "1869–1940",
+            "aporte": "Integró la crítica al Estado con la defensa de la emancipación individual y cultural.",
+            "ilustracion": "assets/autores/goldman.webp"
+          }
+        ],
+        "curiosidades": "Piotr Kropotkin era naturalista y geógrafo, y elaboró su teoría del apoyo mutuo observando la fauna de Siberia como réplica al darwinismo social.",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Socialismo libertario",
+            "url": "https://es.wikipedia.org/wiki/Socialismo_libertario"
+          },
+          {
+            "titulo": "Wikipedia · Anarquismo",
+            "url": "https://es.wikipedia.org/wiki/Anarquismo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "conservadurismo_liberal",
+      "nombre": "Conservadurismo liberal",
+      "definida_en": 4,
+      "parcial": false,
+      "rangos": {
+        "coord_economica": [
+          -0.85,
+          -0.15
+        ],
+        "redistribucion": [
+          -0.7,
+          0.0
+        ],
+        "orden_social": [
+          0.15,
+          0.8
+        ],
+        "poder_jurisprudencia": [
+          -0.7,
+          0.15
+        ]
+      },
+      "nota_corriente": "Une la defensa del mercado y la contención fiscal con la valoración de la continuidad histórica y la familia.",
+      "detalles": {
+        "cita": "«Un Estado sin medios para algún cambio carece de los medios para su propia conservación» — Edmund Burke.",
+        "origen": "Toma forma entre los siglos XVIII y XX al integrar el respeto por las instituciones heredadas con el constitucionalismo y el libre mercado.",
+        "defienden": "Estabilidad institucional, legado cultural, autonomía de la familia y la sociedad civil, y responsabilidad personal.",
+        "economia_politica": "Mercados abiertos, propiedad privada, disciplina presupuestaria y contención del gasto y la deuda pública.",
+        "filosofia_etica": "Prudencia ante los diseños utópicos y confianza en las normas e instituciones probadas por la experiencia histórica.",
+        "autores": [
+          {
+            "nombre": "Edmund Burke",
+            "epoca": "1729–1797",
+            "aporte": "Defendió la reforma gradual y el respeto a las instituciones frente a las rupturas revolucionarias.",
+            "ilustracion": "assets/autores/burke.webp"
+          },
+          {
+            "nombre": "Alexis de Tocqueville",
+            "epoca": "1805–1859",
+            "aporte": "Analizó el equilibrio entre libertad, costumbres y asociaciones cívicas en «La democracia en América».",
+            "ilustracion": "assets/autores/alexis-de-tocqueville.webp"
+          },
+          {
+            "nombre": "Raymond Aron",
+            "epoca": "1905–1983",
+            "aporte": "Combinó realismo político, defensa de las libertades pluralistas y crítica a las ideologías rígidas.",
+            "ilustracion": "assets/autores/aron.webp"
+          }
+        ],
+        "curiosidades": "Edmund Burke apoyó las reivindicaciones de las colonias norteamericanas a la vez que criticó con dureza la Revolución francesa de 1789.",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Conservadurismo liberal",
+            "url": "https://es.wikipedia.org/wiki/Conservadurismo_liberal"
+          },
+          {
+            "titulo": "Stanford Encyclopedia · Conservatism",
+            "url": "https://plato.stanford.edu/entries/conservatism/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "conservadurismo_tradicional",
+      "nombre": "Conservadurismo tradicional / social",
+      "definida_en": 3,
+      "parcial": false,
+      "rangos": {
+        "coord_economica": [
+          -0.5,
+          0.3
+        ],
+        "redistribucion": [
+          -0.3,
+          0.45
+        ],
+        "orden_social": [
+          0.4,
+          1.0
+        ],
+        "poder_jurisprudencia": [
+          -0.2,
+          0.75
+        ]
+      },
+      "nota_corriente": "Da peso central al orden moral compartido, la continuidad cultural y la autoridad de las instituciones.",
+      "detalles": {
+        "cita": "«La sociedad es un contrato entre los que viven, los que han muerto y los que aún han de nacer» — Edmund Burke.",
+        "origen": "Hunde sus raíces en la filosofía política clásica y en la reacción ilustrada y romántica frente a la disolución de los vínculos tradicionales.",
+        "defienden": "Transmisión intergeneracional, valores tradicionales, cohesión cultural, arraigo local y respeto a las normas comunes.",
+        "economia_politica": "Equilibrio pragmático entre iniciativa privada y protección del tejido social, agrario, artesanal y familiar.",
+        "filosofia_etica": "Sentido del deber, pertenencia histórica y convicción de que las personas necesitan raíces compartidas para convivir.",
+        "autores": [
+          {
+            "nombre": "Russell Kirk",
+            "epoca": "1918–1994",
+            "aporte": "Sintetizó los principios del conservadurismo tradicional moderno en «La mentalidad conservadora».",
+            "ilustracion": "assets/autores/kirk.webp"
+          },
+          {
+            "nombre": "Roger Scruton",
+            "epoca": "1944–2020",
+            "aporte": "Defendió el arraigo cultural, la estética y el hogar común como pilares de la vida cívica.",
+            "ilustracion": "assets/autores/roger-scruton.webp"
+          },
+          {
+            "nombre": "T. S. Eliot",
+            "epoca": "1888–1965",
+            "aporte": "Reflexionó sobre la continuidad cultural y la tradición en «Notas para la definición de la cultura».",
+            "ilustracion": "assets/autores/eliot.webp"
+          }
+        ],
+        "curiosidades": "Roger Scruton introdujo el concepto de «oikofilia» (amor al hogar y al entorno cercano) para explicar el cuidado intergeneracional.",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Conservadurismo",
+            "url": "https://es.wikipedia.org/wiki/Conservadurismo"
+          },
+          {
+            "titulo": "Wikipedia · Conservadurismo tradicionalista",
+            "url": "https://es.wikipedia.org/wiki/Conservadurismo_tradicionalista"
+          }
+        ]
+      }
+    },
+    {
+      "id": "comunitarismo_democristiana",
+      "nombre": "Comunitarismo / humanismo cristiano",
+      "definida_en": 4,
+      "parcial": false,
+      "rangos": {
+        "coord_economica": [
+          -0.3,
+          0.45
+        ],
+        "redistribucion": [
+          0.1,
+          0.7
+        ],
+        "orden_social": [
+          0.25,
+          0.85
+        ],
+        "poder_jurisprudencia": [
+          -0.5,
+          0.25
+        ]
+      },
+      "nota_corriente": "Concibe a la persona como un ser social vinculado a su comunidad, equilibrando solidaridad, subsidiariedad y normas compartidas.",
+      "detalles": {
+        "cita": "«El bien común es el bien de la comunidad entera y de cada una de las personas que la forman» — Jacques Maritain.",
+        "origen": "Se desarrolla entre finales del siglo XIX y el XX a partir del personalismo, la doctrina social cristiana y el debate comunitarista contemporáneo.",
+        "defienden": "Dignidad humana, bien común, principio de subsidiariedad (que decida primero la instancia más cercana) y apoyo mutuo.",
+        "economia_politica": "Economía social de mercado con responsabilidad cívica, protección a las familias y solidaridad con los más vulnerables.",
+        "filosofia_etica": "Relacionalidad humana: la persona se desarrolla dentro de comunidades concretas, armonizando derechos y deberes.",
+        "autores": [
+          {
+            "nombre": "Jacques Maritain",
+            "epoca": "1882–1973",
+            "aporte": "Articuló el humanismo integral y contribuyó a la Declaración Universal de Derechos Humanos.",
+            "ilustracion": "assets/autores/maritain.webp"
+          },
+          {
+            "nombre": "Charles Taylor",
+            "epoca": "n. 1931",
+            "aporte": "Analizó la identidad moderna y el papel constitutivo de la comunidad en la vida moral.",
+            "ilustracion": "assets/autores/taylor.webp"
+          },
+          {
+            "nombre": "Michael Sandel",
+            "epoca": "n. 1953",
+            "aporte": "Cuestionó el individualismo neutral y defendió el debate cívico sobre el bien común.",
+            "ilustracion": "assets/autores/sandel.webp"
+          }
+        ],
+        "curiosidades": "El principio de subsidiariedad nacido en esta tradición es hoy uno de los pilares jurídicos de la Unión Europea.",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Comunitarismo",
+            "url": "https://es.wikipedia.org/wiki/Comunitarismo"
+          },
+          {
+            "titulo": "Stanford Encyclopedia · Communitarianism",
+            "url": "https://plato.stanford.edu/entries/communitarianism/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "republicanismo_civico",
+      "nombre": "Republicanismo cívico",
+      "definida_en": 3,
+      "parcial": false,
+      "rangos": {
+        "coord_economica": [
+          -0.35,
+          0.3
+        ],
+        "redistribucion": [
+          0.0,
+          0.55
+        ],
+        "orden_social": [
+          -0.4,
+          0.4
+        ],
+        "poder_jurisprudencia": [
+          -0.9,
+          -0.3
+        ]
+      },
+      "nota_corriente": "Enfatiza la libertad como no dominación, el control estricto del poder y la virtud cívica.",
+      "detalles": {
+        "cita": "«Somos siervos de las leyes para poder ser libres» — Cicerón.",
+        "origen": "Se remonta a la república romana y las ciudades-Estado renacentistas, y fue revitalizado a finales del siglo XX por la teoría política neorrepublicana.",
+        "defienden": "Que nadie quede sometido a la voluntad arbitraria de otro —ni de un gobernante ni de un actor privado— mediante leyes imparciales.",
+        "economia_politica": "Mercados regulados para evitar monopolios y dependencia extrema, asegurando independencia material a la ciudadanía.",
+        "filosofia_etica": "Libertad como no dominación, virtud cívica, participación en lo público y vigilancia activa frente a la corrupción.",
+        "autores": [
+          {
+            "nombre": "Nicolás Maquiavelo",
+            "epoca": "1469–1527",
+            "aporte": "Estudió las instituciones y el conflicto cívico que preservan las repúblicas en sus «Discursos».",
+            "ilustracion": "assets/autores/maquiavelo.webp"
+          },
+          {
+            "nombre": "Philip Pettit",
+            "epoca": "n. 1945",
+            "aporte": "Formalizó la libertad como no dominación en su obra «Republicanismo».",
+            "ilustracion": "assets/autores/pettit.webp"
+          },
+          {
+            "nombre": "Quentin Skinner",
+            "epoca": "n. 1940",
+            "aporte": "Recuperó la tradición histórica de la libertad neorromana frente a la mera ausencia de interferencia.",
+            "ilustracion": "assets/autores/skinner.webp"
+          }
+        ],
+        "curiosidades": "Para el republicanismo, incluso un «amo benévolo» que nunca interfiere sigue privando de libertad porque conserva el poder arbitrario de hacerlo.",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Republicanismo",
+            "url": "https://es.wikipedia.org/wiki/Republicanismo"
+          },
+          {
+            "titulo": "Stanford Encyclopedia · Republicanism",
+            "url": "https://plato.stanford.edu/entries/republicanism/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "estatismo_autoritario",
+      "nombre": "Autoritarismo estatista",
+      "definida_en": 4,
+      "parcial": false,
+      "rangos": {
+        "coord_economica": [
+          0.15,
+          0.9
+        ],
+        "redistribucion": [
+          -0.5,
+          0.75
+        ],
+        "orden_social": [
+          0.35,
+          1.0
+        ],
+        "poder_jurisprudencia": [
+          0.4,
+          1.0
+        ]
+      },
+      "nota_corriente": "Prioriza la autoridad centralizada del Estado, la unidad y el orden por encima de la autonomía individual o los contrapesos amplios.",
+      "detalles": {
+        "cita": "«Los pactos que no descansan en la espada no son más que palabras» — Thomas Hobbes.",
+        "origen": "Se vincula a la formación del Estado soberano moderno en el siglo XVII y a las doctrinas de concentración ejecutiva frente a crisis internas.",
+        "defienden": "Fuerza ejecutiva del Estado, unidad política interna, disciplina social y capacidad de decisión rápida y centralizada.",
+        "economia_politica": "Dirección, tutela estatal o planificación estratégica subordinada a la seguridad, la cohesión y los fines del Estado.",
+        "filosofia_etica": "Primacía del orden, la soberanía y la estabilidad colectiva sobre el pluralismo fragmentado o el disenso.",
+        "autores": [
+          {
+            "nombre": "Thomas Hobbes",
+            "epoca": "1588–1679",
+            "aporte": "Justificó un soberano indivisible para evitar el caos social en «Leviatán».",
+            "ilustracion": "assets/autores/thomas-hobbes.webp"
+          },
+          {
+            "nombre": "Jean Bodin",
+            "epoca": "1530–1596",
+            "aporte": "Definió el concepto moderno de soberanía absoluta y perpetua del Estado.",
+            "ilustracion": "assets/autores/bodin.webp"
+          },
+          {
+            "nombre": "Carl Schmitt",
+            "epoca": "1888–1985",
+            "aporte": "Analizó la excepción política y la concentración de la decisión soberana en el Estado.",
+            "ilustracion": "assets/autores/carl-schmitt.webp"
+          }
+        ],
+        "curiosidades": "Thomas Hobbes escribió «Leviatán» durante el exilio provocado por la Guerra Civil Inglesa, obsesionado por cómo evitar el colapso del orden civil.",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Estatismo",
+            "url": "https://es.wikipedia.org/wiki/Estatismo"
+          },
+          {
+            "titulo": "Wikipedia · Autoritarismo",
+            "url": "https://es.wikipedia.org/wiki/Autoritarismo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pragmatismo_moderado",
+      "nombre": "Perfil moderado / pragmatismo gradualista",
+      "definida_en": 4,
+      "parcial": false,
+      "rangos": {
+        "coord_economica": [
+          -0.3,
+          0.3
+        ],
+        "redistribucion": [
+          -0.3,
+          0.3
+        ],
+        "orden_social": [
+          -0.3,
+          0.3
+        ],
+        "poder_jurisprudencia": [
+          -0.3,
+          0.3
+        ]
+      },
+      "nota_corriente": "Se muestra cuando tus respuestas caen en una franja moderada en los cuatro ejes, favoreciendo ajustes graduales y soluciones prácticas.",
+      "detalles": {
+        "cita": "«Trabaja por la eliminación de los males concretos más bien que por la realización de bienes abstractos» — Karl Popper.",
+        "origen": "Se nutre del pragmatismo filosófico y de la teoría de políticas públicas del siglo XX, centrados en el aprendizaje empírico paso a paso.",
+        "defienden": "Soluciones prácticas verificables, acuerdos amplios, reformas graduales y equilibrio entre iniciativa privada y acción pública.",
+        "economia_politica": "Combinación flexible de incentivos de mercado y regulación pública según la evidencia de cada problema concreto.",
+        "filosofia_etica": "Gradualismo, falibilismo (aceptar que toda política puede errar y corregirse) y cautela ante cambios irreversibles.",
+        "autores": [
+          {
+            "nombre": "Karl Popper",
+            "epoca": "1902–1994",
+            "aporte": "Defendió la «ingeniería social gradual» frente a los rediseños totales en «La sociedad abierta y sus enemigos».",
+            "ilustracion": "assets/autores/karl-popper.webp"
+          },
+          {
+            "nombre": "Charles E. Lindblom",
+            "epoca": "1917–2018",
+            "aporte": "Formulaciones sobre el incrementalismo y los ajustes sucesivos en la toma de decisiones públicas.",
+            "ilustracion": "assets/autores/lindblom.webp"
+          },
+          {
+            "nombre": "John Dewey",
+            "epoca": "1859–1952",
+            "aporte": "Concibió las políticas públicas como hipótesis experimentales sujetas a revisión democrática.",
+            "ilustracion": "assets/autores/dewey.webp"
+          }
+        ],
+        "curiosidades": "Charles E. Lindblom llamó humorísticamente a este método «la ciencia de salir del paso» («muddling through») en un célebre artículo de 1959.",
+        "enlaces": [
+          {
+            "titulo": "Wikipedia · Pragmatismo",
+            "url": "https://es.wikipedia.org/wiki/Pragmatismo"
+          },
+          {
+            "titulo": "Wikipedia · Incrementalismo",
+            "url": "https://es.wikipedia.org/wiki/Incrementalismo"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "perfiles_dorados": {
+    "liberal_clasico": {
+      "respuestas": {
+        "Q01": 1.0, "Q02": "A", "Q03": -1.0, "Q04": 5, "Q05": "B", "Q06": 1,
+        "Q07": -0.5, "Q08": 1, "Q09": 0.5, "Q10": 5, "Q11": 1, "Q12": 5,
+        "Q13": 0.0, "Q14": 5, "Q15": 0.5, "Q16": 1, "Q17": 5, "Q18": 5,
+        "Q19": 1.0, "Q20": "A", "Q21": -1.0, "Q22": 5, "Q23": 1, "Q24": 5
+      },
+      "esperado": {
+        "coord_economica": [-1.0, -0.85],
+        "redistribucion": [-0.90, -0.60],
+        "orden_social": [-0.65, -0.30],
+        "poder_jurisprudencia": [-1.0, -0.80]
+      }
+    },
+    "socialdemocrata": {
+      "respuestas": {
+        "Q01": -0.5, "Q02": "C", "Q03": 0.5, "Q04": 1, "Q05": "C", "Q06": 5,
+        "Q07": 0.5, "Q08": 5, "Q09": -0.5, "Q10": 1, "Q11": 5, "Q12": 1,
+        "Q13": 0.5, "Q14": 5, "Q15": 0.5, "Q16": 5, "Q17": 5, "Q18": 1,
+        "Q19": 0.5, "Q20": "C", "Q21": -0.5, "Q22": 5, "Q23": 1, "Q24": 5
+      },
+      "esperado": {
+        "coord_economica": [0.15, 0.55],
+        "redistribucion": [0.65, 0.95],
+        "orden_social": [-0.55, -0.15],
+        "poder_jurisprudencia": [-0.60, -0.20]
+      }
+    },
+    "comunitario_orden": {
+      "respuestas": {
+        "Q01": 0.0, "Q02": "B", "Q03": 0.5, "Q04": 1, "Q05": "A", "Q06": 5,
+        "Q07": 0.5, "Q08": 5, "Q09": -0.5, "Q10": 1, "Q11": 2, "Q12": 2,
+        "Q13": 1.0, "Q14": 1, "Q15": -1.0, "Q16": 1, "Q17": 1, "Q18": 1,
+        "Q19": -0.5, "Q20": "C", "Q21": 1.0, "Q22": 1, "Q23": 5, "Q24": 1
+      },
+      "esperado": {
+        "coord_economica": [0.35, 0.70],
+        "redistribucion": [0.35, 0.70],
+        "orden_social": [0.75, 1.0],
+        "poder_jurisprudencia": [0.65, 0.95]
+      }
+    },
+    "progresista_civil_libertario": {
+      "respuestas": {
+        "Q01": -0.5, "Q02": "C", "Q03": 0.5, "Q04": 1, "Q05": "A", "Q06": 2,
+        "Q07": 1.0, "Q08": 5, "Q09": -1.0, "Q10": 1, "Q11": 5, "Q12": 1,
+        "Q13": -1.0, "Q14": 5, "Q15": 1.0, "Q16": 5, "Q17": 5, "Q18": 5,
+        "Q19": 1.0, "Q20": "A", "Q21": -1.0, "Q22": 5, "Q23": 1, "Q24": 5
+      },
+      "esperado": {
+        "coord_economica": [-0.20, 0.25],
+        "redistribucion": [0.75, 1.0],
+        "orden_social": [-1.0, -0.75],
+        "poder_jurisprudencia": [-1.0, -0.75]
+      }
+    },
+    "ley_y_orden_con_garantias": {
+      "respuestas": {
+        "Q01": 0.5, "Q02": "A", "Q03": -0.5, "Q04": 5, "Q05": "B", "Q06": 1,
+        "Q07": -0.5, "Q08": 1, "Q09": 0.5, "Q10": 5, "Q11": 1, "Q12": 5,
+        "Q13": 0.5, "Q14": 4, "Q15": 0.0, "Q16": 1, "Q17": 4, "Q18": 2,
+        "Q19": 1.0, "Q20": "C", "Q21": -1.0, "Q22": 1, "Q23": 1, "Q24": 5
+      },
+      "esperado": {
+        "coord_economica": [-1.0, -0.70],
+        "redistribucion": [-0.90, -0.55],
+        "orden_social": [0.0, 0.45],
+        "poder_jurisprudencia": [-0.55, -0.15]
+      }
+    },
+    "socialdemocrata_de_mercado": {
+      "respuestas": {
+        "Q01": 0.5, "Q02": "C", "Q03": -0.5, "Q04": 5, "Q05": "A", "Q06": 1,
+        "Q07": 0.5, "Q08": 5, "Q09": -0.5, "Q10": 1, "Q11": 4, "Q12": 2,
+        "Q13": 0.0, "Q14": 5, "Q15": 0.5, "Q16": 5, "Q17": 5, "Q18": 5,
+        "Q19": 0.5, "Q20": "C", "Q21": -0.5, "Q22": 5, "Q23": 1, "Q24": 5
+      },
+      "esperado": {
+        "coord_economica": [-1.0, -0.65],
+        "redistribucion": [0.55, 0.85],
+        "orden_social": [-0.70, -0.35],
+        "poder_jurisprudencia": [-0.55, -0.15]
+      }
+    },
+    "midpoint_liner": {
+      "respuestas": {
+        "Q01": 0.0, "Q02": null, "Q03": 0.0, "Q04": 3, "Q05": null, "Q06": 3,
+        "Q07": 0.0, "Q08": 3, "Q09": 0.0, "Q10": 3, "Q11": 3, "Q12": 3,
+        "Q13": 0.0, "Q14": 3, "Q15": 0.0, "Q16": 3, "Q17": 3, "Q18": 3,
+        "Q19": 0.0, "Q20": null, "Q21": 0.0, "Q22": 3, "Q23": 3, "Q24": 3
+      },
+      "esperado": {
+        "coord_economica": [-0.01, 0.01],
+        "redistribucion": [-0.01, 0.01],
+        "orden_social": [-0.01, 0.01],
+        "poder_jurisprudencia": [-0.01, 0.01]
+      }
+    },
+    "agree_all_y_primera_opcion": {
+      "respuestas": {
+        "Q01": 1.0, "Q02": "A", "Q03": 1.0, "Q04": 1, "Q05": "A", "Q06": 1,
+        "Q07": 1.0, "Q08": 1, "Q09": 1.0, "Q10": 1, "Q11": 1, "Q12": 1,
+        "Q13": 1.0, "Q14": 1, "Q15": 1.0, "Q16": 1, "Q17": 1, "Q18": 1,
+        "Q19": 1.0, "Q20": "A", "Q21": 1.0, "Q22": 1, "Q23": 1, "Q24": 1
+      },
+      "esperado": {
+        "coord_economica": [-0.30, 0.15],
+        "redistribucion": [-0.20, 0.25],
+        "orden_social": [-0.15, 0.30],
+        "poder_jurisprudencia": [-0.25, 0.20]
+      }
+    }
+  }
+}

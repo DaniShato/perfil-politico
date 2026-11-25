@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light" />
+  <title>Perfil Político · Más allá de las etiquetas</title>
+  <link rel="icon" type="image/png" href="../assets/favicon.png?v=6" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=8" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"
+    onload="renderMathInElement(document.body, { delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}] });"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <div class="brand">
+        <a href="#test" id="brand-home-link" class="brand-link" aria-label="Perfil Político — Ir a la página principal">
+          <img src="../assets/logo-perfil-politico.webp" alt="Perfil Político" class="brand-logo" />
+        </a>
+      </div>
+      <nav class="tabs" aria-label="Secciones">
+        <a href="#test" data-tab="test">Test</a>
+        <a href="#resultados" data-tab="resultados">Resultados</a>
+        <a href="#afinidades" data-tab="afinidades">Afinidades</a>
+        <a href="#metodologia" data-tab="metodologia">Metodología</a>
+        <a href="#ejes" data-tab="ejes">Ejes y polos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- ───────── TEST ───────── -->
+    <section id="panel-test" data-panel="test">
+      <div id="vista-intro" class="card">
+        <div class="hero-split">
+          <div class="hero-copy">
+            <p class="eyebrow">Perfil Político · Más allá de las etiquetas</p>
+            <h2>Descubre tu brújula ideológica sin atajos</h2>
+            <p class="lead">Enfrenta 48 situaciones reales y distintas para ubicar tu postura política y económica en cuatro dimensiones y descubrir qué corrientes filosóficas e ideológicas encajan más contigo.</p>
+            <div class="row">
+              <button id="btn-empezar" class="btn primary" disabled>Comenzar el test</button>
+              <button id="btn-reiniciar-intro" class="btn" hidden>Descartar y empezar de nuevo</button>
+            </div>
+            <p id="aviso-carga" class="notice" hidden></p>
+            <p class="assurance">Gratis · Sin registro · <span id="num-preguntas">48</span> preguntas<br />Todo se calcula localmente en tu navegador.</p>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <svg
+              id="constelacion-svg"
+              class="constellation-svg"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 360 360"
+              width="360"
+              height="360"
+              role="presentation"
+            >
+              <!-- Anillo exterior discontinuo -->
+              <circle
+                id="const-ring-outer"
+                cx="180"
+                cy="180"
+                r="155"
+                fill="none"
+                stroke="#181713"
+                stroke-opacity="0.25"
+                stroke-width="2"
+                stroke-dasharray="4 10"
+              />
+
+              <!-- Anillo interior -->
+              <circle
+                cx="180"
+                cy="180"
+                r="105"
+                fill="none"
+                stroke="#181713"
+                stroke-opacity="0.13"
+                stroke-width="2"
+              />
+
+              <!-- Conexiones -->
+              <g
+                id="const-lines"
+                fill="none"
+                stroke="#181713"
+                stroke-width="3.4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <line data-from="0" data-to="1" x1="68" y1="92" x2="278" y2="66" />
+                <line data-from="1" data-to="2" x1="278" y1="66" x2="302" y2="252" />
+                <line data-from="2" data-to="3" x1="302" y1="252" x2="119" y2="299" />
+                <line data-from="3" data-to="0" x1="119" y1="299" x2="68" y2="92" />
+                <line data-from="0" data-to="4" x1="68" y1="92" x2="198" y2="180" />
+                <line data-from="1" data-to="4" x1="278" y1="66" x2="198" y2="180" />
+                <line data-from="2" data-to="4" x1="302" y1="252" x2="198" y2="180" />
+                <line data-from="3" data-to="4" x1="119" y1="299" x2="198" y2="180" />
+              </g>
+
+              <!-- Cuatro nodos negros -->
+              <g id="const-nodes" fill="#181713">
+                <circle cx="68" cy="92" r="9" />
+                <circle cx="278" cy="66" r="9" />
+                <circle cx="302" cy="252" r="9" />
+                <circle cx="119" cy="299" r="9" />
+              </g>
+
+              <!-- Núcleo amarillo -->
+              <circle
+                id="const-core"
+                cx="198"
+                cy="180"
+                r="23"
+                fill="#f2c420"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <div class="home-section">
+          <p class="eyebrow">Qué medimos</p>
+          <h3 class="home-subhead">Cuatro dimensiones para entender tu postura</h3>
+          <div class="intro-axes" aria-label="Dimensiones evaluadas">
+            <div class="intro-axis-item eje-coord_economica">
+              <span class="intro-axis-num">01</span>
+              <h3>Coordinación económica</h3>
+              <p>Iniciativa privada y mercados libres, y dirección y regulación pública.</p>
+            </div>
+            <div class="intro-axis-item eje-redistribucion">
+              <span class="intro-axis-num">02</span>
+              <h3>Redistribución</h3>
+              <p>Baja carga fiscal y ayuda voluntaria, e impuestos y provisión pública.</p>
+            </div>
+            <div class="intro-axis-item eje-orden_social">
+              <span class="intro-axis-num">03</span>
+              <h3>Orden social</h3>
+              <p>Autonomía individual y pluralidad, y cohesión y normas comunes.</p>
+            </div>
+            <div class="intro-axis-item eje-poder_jurisprudencia">
+              <span class="intro-axis-num">04</span>
+              <h3>Autoridad del Estado</h3>
+              <p>Garantías y límites al poder, y capacidad ejecutiva y autoridad.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="home-section">
+          <p class="eyebrow">Cómo funciona</p>
+          <h3 class="home-subhead">Tres pasos sencillos</h3>
+          <div class="home-steps">
+            <article class="home-step">
+              <span class="home-step-num">Paso 01</span>
+              <h4>Responde a tu ritmo</h4>
+              <p>Afirmaciones y dilemas sobre economía, impuestos, vida social y poder. Puedes saltar las preguntas que no quieras responder.</p>
+            </article>
+            <article class="home-step">
+              <span class="home-step-num">Paso 02</span>
+              <h4>Mira tu perfil por eje</h4>
+              <p>Verás tu posición en cada dimensión con su margen de incertidumbre, sin reducirlo a un único número ni a un solo bando.</p>
+            </article>
+            <article class="home-step">
+              <span class="home-step-num">Paso 03</span>
+              <h4>Explora corrientes afines</h4>
+              <p>Comparamos tu perfil con tradiciones políticas, económicas y filosóficas, explicando dónde hay cercanía y dónde hay matices.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="home-section home-currents">
+          <div class="home-currents-head">
+            <div>
+              <p class="eyebrow">Corrientes y tradiciones</p>
+              <h3 class="home-subhead">Un mapa amplio de familias de pensamiento</h3>
+            </div>
+            <a href="#afinidades" class="btn small home-link-btn">Ver todas las corrientes</a>
+          </div>
+          <p class="muted">En lugar de centrarse en partidos de un país o una elección concreta, el test contrasta tus respuestas con marcos ideológicos y filosóficos de alcance general:</p>
+          <div class="current-pills" aria-label="Corrientes incluidas en orden alfabético">
+            <span class="current-pill">Anarcocapitalismo / voluntarismo de mercado</span>
+            <span class="current-pill">Autoritarismo estatista</span>
+            <span class="current-pill">Comunitarismo / humanismo cristiano</span>
+            <span class="current-pill">Comunismo / Socialismo de planificación</span>
+            <span class="current-pill">Conservadurismo liberal</span>
+            <span class="current-pill">Conservadurismo tradicional / social</span>
+            <span class="current-pill">Corriente socialdemócrata</span>
+            <span class="current-pill">Liberalismo igualitario / socioliberalismo</span>
+            <span class="current-pill">Libertarismo minarquista</span>
+            <span class="current-pill">Perfil moderado / pragmatismo gradualista</span>
+            <span class="current-pill">Republicanismo cívico</span>
+            <span class="current-pill">Socialismo democrático / reformista</span>
+            <span class="current-pill">Socialismo libertario / anarquismo social</span>
+            <span class="current-pill">Tradición liberal clásica</span>
+          </div>
+        </div>
+
+        <div class="home-section home-about">
+          <div class="home-about-col">
+            <p class="eyebrow">Enfoque universal</p>
+            <h4>Pensado para cualquier lugar, sin sesgo electoral</h4>
+            <p class="muted small">No mide promesas de campaña ni sistemas de partidos locales. Plantea cuestiones de principio y convivencia para que puedas reflexionar sobre tus propias ideas.</p>
+          </div>
+          <div class="home-about-col">
+            <p class="eyebrow">Privacidad</p>
+            <h4>Todo ocurre en tu navegador</h4>
+            <p class="muted small">No pedimos cuenta, nombre ni correo. Las respuestas se procesan localmente y desaparecen al cerrar o recargar la página.</p>
+          </div>
+        </div>
+
+        <div class="row home-cta-bottom">
+          <a href="#test" class="btn primary" onclick="document.getElementById('btn-empezar')?.click(); return false;">Empezar el test</a>
+          <a href="#metodologia" class="btn link">Leer la metodología</a>
+        </div>
+      </div>
+
+      <div id="vista-pregunta" class="card" hidden>
+        <div class="progress-head">
+          <span id="p-contador"></span>
+          <span id="p-parte" class="tag"></span>
+        </div>
+        <div class="progress"><div id="p-barra"></div></div>
+        <h2 id="p-enunciado" class="question"></h2>
+        <p id="p-matiz" class="muted" hidden></p>
+        <div id="p-opciones" class="opciones"></div>
+        <div class="nav-row">
+          <button id="btn-anterior" class="btn">Anterior</button>
+          <button id="btn-saltar" class="btn link">Prefiero no responder</button>
+          <button id="btn-siguiente" class="btn primary" disabled>Siguiente</button>
+        </div>
+        <p class="muted small keys-hint">Atajos de teclado: teclas 1–5 para responder, ← → para moverte.</p>
+      </div>
+    </section>
+
+    <!-- ───────── RESULTADOS ───────── -->
+    <section id="panel-resultados" data-panel="resultados" hidden>
+      <div id="res-vacio" class="card">
+        <h2>Todavía no hay resultados</h2>
+        <p>Completa el test para ver tu posición en cada eje.</p>
+        <button id="btn-ir-test" class="btn primary">Ir al test</button>
+      </div>
+
+      <div id="res-contenido" hidden>
+        <div class="res-head">
+          <h2>Tu perfil</h2>
+          <span id="res-estado" class="tag"></span>
+          <button type="button" class="btn primary btn-compartir">Compartir resultados</button>
+          <span class="estado-compartir muted small" role="status" aria-live="polite"></span>
+        </div>
+
+        <div class="card resumen-card">
+          <h3>En pocas palabras...</h3>
+          <ul id="res-resumen-lista" class="summary-list"></ul>
+          <p class="muted small">Es una lectura orientativa de tus respuestas, no una etiqueta. Las posiciones se leen sobre un espectro continuo.</p>
+        </div>
+
+        <div id="res-nota"></div>
+
+        <h3 class="section-title">Cada eje en detalle</h3>
+        <div id="res-ejes" class="axes-stack"></div>
+
+        <div class="card">
+          <h3>Tus contrastes</h3>
+          <div id="res-contrastes"></div>
+        </div>
+
+        <div class="card">
+          <h3>Diagrama de orientación política</h3>
+          <div id="diagrama-nolan-svg" class="nolan-wrap"></div>
+          <p class="muted small">Resume los cuatro ejes en dos dimensiones compuestas: Economía (promedio de coordinación económica y redistribución) y Sociedad (promedio de orden social y autoridad del Estado). Todo punto posible cae dentro del cuadrado. La cruz es el margen probable en cada dimensión, y los puntos de colores de los márgenes muestran cada eje por separado.</p>
+        </div>
+
+        <div class="card">
+          <h3>Afinidades orientativas</h3>
+          <div id="afinidades-resumen"></div>
+        </div>
+
+        <div class="row">
+          <button type="button" class="btn primary btn-compartir">Compartir resultados</button>
+          <button id="btn-repetir" class="btn">Repetir el test</button>
+          <span class="estado-compartir muted small" role="status" aria-live="polite"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── AFINIDADES ───────── -->
+    <section id="panel-afinidades" data-panel="afinidades" hidden>
+      <div class="prose af-hero-clean">
+        <h2 class="af-page-title">Afinidades y corrientes</h2>
+        <p>Aquí puedes explorar las corrientes políticas, económicas y filosóficas incluidas en la página y qué rasgo general describe cada una. Sirven como orientación comparativa y no encasillan por sí solas: dentro de cada corriente existen posturas diversas.</p>
+        <p class="muted small">Este test no mide tecnología, ecología, religión, política exterior ni identidad territorial o nacional.</p>
+      </div>
+      <div id="afinidades-indice"></div>
+      <div id="afinidades-catalogo"></div>
+    </section>
+
+    <!-- ───────── METODOLOGÍA ───────── -->
+    <section id="panel-metodologia" data-panel="metodologia" hidden>
+      <div class="prose af-hero-clean">
+        <h2 class="af-page-title">Metodología</h2>
+        <p>Una guía sencilla para entender qué mide este test, cómo se leen las escalas y qué significan los márgenes o avisos que aparecen en tus resultados.</p>
+        <p class="muted small">Todo el cálculo se ejecuta localmente en tu navegador, sin etiquetas cerradas ni envío de respuestas a servidores externos.</p>
+      </div>
+
+      <!-- Bloque en 2 columnas: ejemplo real de tarjeta de eje + explicación sencilla -->
+      <div class="met-split">
+        <div class="axis-card eje-coord_economica met-sample-axis" aria-label="Ejemplo visual de lectura de un eje">
+          <div class="axis-top">
+            <div>
+              <span class="met-kicker">Ejemplo de lectura</span>
+              <h4>Coordinación económica</h4>
+              <p class="reading">Inclinación moderada hacia acuerdos voluntarios</p>
+            </div>
+            <span class="axis-badge">36 %</span>
+          </div>
+
+          <div class="spectrum">
+            <div class="spectrum-poles">
+              <span>Mercado y acuerdos voluntarios</span>
+              <span>Dirección y gestión públicas</span>
+            </div>
+            <div class="spectrum-track">
+              <span class="tick" style="left: 25%;"></span>
+              <span class="tick center" style="left: 50%;"></span>
+              <span class="tick" style="left: 75%;"></span>
+              <div class="spectrum-ic" style="left: 18%; width: 28%;"></div>
+              <div class="spectrum-marker" style="left: 32%;"></div>
+            </div>
+          </div>
+
+          <p class="axis-numbers">Intensidad <strong>36 %</strong> · Índice <strong>−0,36</strong> <span class="muted">(margen probable de −0,64 a −0,08)</span></p>
+          <p class="small muted">El punto marca tu posición media; la franja sombreada indica el margen probable según tus respuestas.</p>
+        </div>
+
+        <div class="met-open-col">
+          <h3>Qué mide (y qué no pretende medir)</h3>
+          <p>El test sitúa tus respuestas en cuatro ejes continuos —<strong>Coordinación económica</strong>, <strong>Redistribución</strong>, <strong>Orden social</strong> y <strong>Poder y jurisprudencia</strong>— para ofrecerte un mapa orientativo y compararlo con corrientes políticas y filosóficas.</p>
+          <p>No es un diagnóstico clínico ni una recomendación de voto. Resume tendencias generales entre dos polos, sabiendo que en casos concretos todos podemos matizar nuestra postura.</p>
+
+          <details class="detail met-tech-details">
+            <summary>Ver detalles técnicos y fórmulas</summary>
+            <div class="met-tech-body">
+              <p class="small">Cada pregunta $i$ aporta una posición $x_i \in [-1, 1]$ y un peso $w_i$ en cada eje aplicable. La puntuación final $s$ del eje se obtiene como media ponderada:</p>
+              <div class="met-math-inline">$$s = \frac{\sum_{i} w_i x_i}{\sum_{i} w_i}$$</div>
+              <ul class="detail-list">
+                <li><strong>Cobertura mínima:</strong> se requieren al menos $3$ respuestas en el eje y cubrir al menos el $60\,\%$ de su peso total para mostrar puntuación.</li>
+                <li><strong>Margen probable ($\text{IC } 95\,\%$):</strong> se estima mediante $s \pm 1{,}96 \cdot \text{SE}$, acotado en $[-1, 1]$, combinando dispersión por ítem y por faceta temática.</li>
+                <li><strong>Variación interna ($\sigma$):</strong> desviación típica ponderada de tus respuestas respecto a $s$ (calculada desde $4$ respuestas); si $\sigma \ge 0{,}65$ se señala tensión interna.</li>
+              </ul>
+            </div>
+          </details>
+        </div>
+      </div>
+
+      <!-- List group con colores por eje -->
+      <div class="met-band">
+        <h3>Cómo se plantea el cuestionario</h3>
+        <ul class="met-list-group">
+          <li class="met-lg-item eje-coord_economica">
+            <span class="met-lg-badge">Formatos</span>
+            <div>
+              <strong>Tres formas de responder</strong>
+              <p class="small">Escalas de acuerdo en cinco pasos, comparaciones entre dos posturas con grados intermedios y elecciones entre tres planteamientos distintos.</p>
+            </div>
+          </li>
+          <li class="met-lg-item eje-redistribucion">
+            <span class="met-lg-badge">Orden</span>
+            <div>
+              <strong>Preguntas mezcladas y opciones barajadas</strong>
+              <p class="small">Los temas se intercalan y el orden de las opciones cambia en cada partida para reducir el efecto de posición en pantalla.</p>
+            </div>
+          </li>
+          <li class="met-lg-item eje-orden_social">
+            <span class="met-lg-badge">Matices</span>
+            <div>
+              <strong>Sin etiquetas de entrada</strong>
+              <p class="small">Se evitan etiquetas comodín como «izquierda» o «derecha» en los enunciados para centrarse en qué se prioriza en cada situación.</p>
+            </div>
+          </li>
+          <li class="met-lg-item eje-poder_jurisprudencia">
+            <span class="met-lg-badge">Privacidad</span>
+            <div>
+              <strong>Todo ocurre en tu navegador</strong>
+              <p class="small">Tus respuestas no se envían a ningún servidor ni se guardan fuera. Al cerrar o recargar la pestaña se borran (con aviso si estás a mitad del test).</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Bloque interactivo usando el mismo espectro visual de resultados -->
+      <article class="card met-sim-card">
+        <p class="eyebrow">Pruébalo aquí mismo</p>
+        <h3>Simulador rápido de un eje</h3>
+        <p class="small muted"><strong>Selección múltiple:</strong> puedes activar o combinar uno, dos o los tres botones a la vez para ver cómo se desplaza el punto en la barra.</p>
+
+        <div class="met-sim-controls" role="group" aria-label="Respuestas de ejemplo para el simulador">
+          <button type="button" class="btn small met-sim-btn is-active" data-sim-val="-0.5">Respuesta 1: algo hacia Polo A</button>
+          <button type="button" class="btn small met-sim-btn" data-sim-val="0.5">Respuesta 2: algo hacia Polo B</button>
+          <button type="button" class="btn small met-sim-btn" data-sim-val="1">Respuesta 3: claramente Polo B</button>
+        </div>
+
+        <div class="met-sim-stage">
+          <div class="spectrum-poles">
+            <span>Polo A</span>
+            <span>Polo B</span>
+          </div>
+          <div class="spectrum-track">
+            <span class="tick" style="left: 25%;"></span>
+            <span class="tick center" style="left: 50%;"></span>
+            <span class="tick" style="left: 75%;"></span>
+            <div class="spectrum-marker" id="met-sim-dot" style="left: 25%;"></div>
+          </div>
+          <p class="met-sim-reading" id="met-sim-reading">Tendencia clara hacia el Polo A.</p>
+        </div>
+
+        <details class="detail met-tech-details">
+          <summary>Ver cálculo numérico de este ejemplo</summary>
+          <div class="met-tech-body">
+            <p class="small" id="met-sim-calc">Valores activos: $-0{,}5$ · Promedio simple: $-0{,}50$ (en una escala de $-1$ a $+1$).</p>
+          </div>
+        </details>
+      </article>
+
+      <!-- Avisos y versiones en dos columnas limpias -->
+      <div class="met-two-col met-bottom-cols">
+        <div class="met-soft-panel">
+          <h4>Avisos de lectura y contrastes</h4>
+          <p class="small">A veces aparecen notas si respondes casi siempre en el mismo sentido, eliges repetidamente la primera opción, das respuestas muy planas o muestras discrepancias entre preguntas inversas. Son pistas para leer el resultado con calma.</p>
+        </div>
+        <div class="met-soft-panel">
+          <h4>Versiones del test</h4>
+          <p class="small">El cuestionario y el motor de cálculo pueden actualizarse para mejorar claridad o cobertura.</p>
+          <p class="muted small met-versiones">Banco <strong id="ver-banco">—</strong> · Motor <strong id="ver-motor">—</strong> · Preguntas <strong id="met-num-preguntas">48</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── EJES Y POLOS ───────── -->
+    <section id="panel-ejes" data-panel="ejes" hidden>
+      <div class="prose af-hero-clean">
+        <h2 class="af-page-title">Ejes y polos</h2>
+        <p>Cada eje es un espectro con dos polos. Estar en un polo no es «bueno» ni «malo», y el centro tampoco es una respuesta correcta. Los ejes son independientes: puedes estar en cualquier punto de uno sin que eso determine los demás.</p>
+      </div>
+
+      <div id="ejes-info" class="axes-stack"></div>
+
+      <div class="ejes-extra-grid">
+        <article class="card ejes-extra-card">
+          <p class="eyebrow">Lectura de la escala</p>
+          <h3>Qué significa el centro y qué significan los polos</h3>
+          <p class="small">Situarse cerca de un polo refleja una prioridad constante cuando entra en juego ese criterio. Situarse cerca del centro o en un punto intermedio no equivale a no tener opinión: suele indicar que sopesas los costes de cada opción, que buscas equilibrio o que la respuesta cambia según el caso concreto.</p>
+        </article>
+
+        <article class="card ejes-extra-card">
+          <p class="eyebrow">Cruce de dimensiones</p>
+          <h3>Por qué los cuatro ejes van por separado</h3>
+          <p class="small">En la práctica política rara vez todo va en bloque. Alguien puede preferir mercados abiertos y baja carga fiscal, pero defender normas sociales compartidas o una autoridad firme del Estado; o bien combinar redistribución pública con amplia autonomía personal. Medir cada eje por separado evita meter perfiles distintos en el mismo cajón.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p class="footer-copy">© 2026 Perfil Político · Más allá de las etiquetas</p>
+      <a href="#test" class="footer-mark" aria-label="Volver al inicio del test">
+        <span class="footer-mark-dot" aria-hidden="true"></span>
+        <span>Perfil Político</span>
+      </a>
+      <nav class="footer-nav" aria-label="Enlaces del pie">
+        <a href="#test">Test</a>
+        <a href="#resultados">Resultados</a>
+        <a href="#afinidades">Afinidades</a>
+        <a href="#metodologia">Metodología</a>
+        <a href="#ejes">Ejes y polos</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("brand-home-link")?.addEventListener("click", () => {
+      const vistaIntro = document.getElementById("vista-intro");
+      const vistaPregunta = document.getElementById("vista-pregunta");
+
+      if (vistaIntro) vistaIntro.hidden = false;
+      if (vistaPregunta) vistaPregunta.hidden = true;
+
+      const tabTest = document.querySelector('.tabs a[data-tab="test"]');
+
+      if (tabTest) tabTest.click();
+
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+  </script>
+
+  <script src="constelacion.js?v=1"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

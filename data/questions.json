@@ -1,0 +1,1247 @@
+{
+  "meta": {
+    "schema_version": "1.1.0",
+    "bank_version": "v6.1",
+    "total_items": 48,
+    "nucleo_items": 16
+  },
+  "items": [
+    {
+      "id": "Q01",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "coord_economica",
+      "peso_ejes": {
+        "coord_economica": 1.0
+      },
+      "faceta": "precios_y_asignacion",
+      "dominio": "economia_mercados",
+      "direccion": -1,
+      "es_nucleo": true,
+      "enunciado": "Es mejor que los precios los acuerden compradores y vendedores a que los fije una autoridad.",
+      "nota_interna": "Q01 ya no tiene espejo: Q03 pasa a medir comercio exterior."
+    },
+    {
+      "id": "Q03",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "coord_economica",
+      "peso_ejes": {
+        "coord_economica": 1.0
+      },
+      "faceta": "precios_y_asignacion",
+      "dominio": "economia_mercados",
+      "direccion": 1,
+      "es_nucleo": false,
+      "enunciado": "El Estado debería poner impuestos a los productos que vienen de otros países para apoyar a las empresas del propio país.",
+      "nota_matiz": "Estos impuestos se llaman aranceles.",
+      "nota_interna": "Sustituye al espejo de Q01. Mide intervención en el comercio exterior."
+    },
+    {
+      "id": "Q04",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "coord_economica",
+      "peso_ejes": {
+        "coord_economica": 1.0
+      },
+      "faceta": "reglas_y_direccion",
+      "dominio": "economia_mercados",
+      "es_nucleo": true,
+      "enunciado": "En la economía en general, ¿cómo prefieres que se decida qué se produce y a qué precio?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Que lo decidan libremente las empresas y las personas, pactando entre sí.",
+          "posiciones": {
+            "coord_economica": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Que lo oriente la administración pública mediante un plan.",
+          "posiciones": {
+            "coord_economica": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q06",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "coord_economica",
+      "peso_ejes": {
+        "coord_economica": 1.0
+      },
+      "faceta": "provision_y_gestion",
+      "dominio": "ayuda_y_solidaridad",
+      "es_nucleo": true,
+      "enunciado": "Cuando el Estado ayuda a familias con pocos recursos, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Darles dinero para que cada familia decida en qué gastarlo.",
+          "posiciones": {
+            "coord_economica": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Facilitarles servicios o bienes concretos, como comida, vivienda o material escolar.",
+          "posiciones": {
+            "coord_economica": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q02",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "eleccion_3",
+      "eje_primario": "coord_economica",
+      "peso_ejes": {
+        "coord_economica": 1.0
+      },
+      "faceta": "precios_y_asignacion",
+      "dominio": "abastecimiento_precios",
+      "es_nucleo": false,
+      "enunciado": "Si el precio de un producto básico, como el pan o la leche, sube mucho por una crisis de suministro, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Que el precio se ajuste libremente según la oferta y la demanda.",
+          "posiciones": {
+            "coord_economica": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Que una autoridad fije un precio máximo y reparta el producto por cupos.",
+          "posiciones": {
+            "coord_economica": 1.0
+          }
+        },
+        {
+          "id": "C",
+          "texto": "Que una autoridad fije un precio máximo, sin reparto por cupos.",
+          "posiciones": {
+            "coord_economica": 0.5
+          }
+        }
+      ],
+      "nota_interna": "Reformulado: el escenario es una subida de precio, no una escasez. Opción C intermedia (tope sin reparto, +0.5)."
+    },
+    {
+      "id": "Q05",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "eleccion_3",
+      "eje_primario": "coord_economica",
+      "peso_ejes": {
+        "coord_economica": 1.0
+      },
+      "faceta": "provision_y_gestion",
+      "dominio": "abastecimiento_precios",
+      "es_nucleo": false,
+      "enunciado": "Para repartir un recurso limitado que usa mucha gente, como las plazas de aparcamiento de un barrio, ¿qué criterio prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Que se asignen con criterios fijados por una autoridad, por ejemplo permisos para residentes.",
+          "posiciones": {
+            "coord_economica": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Que se asignen mediante el precio o la puja que cada persona esté dispuesta a pagar.",
+          "posiciones": {
+            "coord_economica": -1.0
+          }
+        },
+        {
+          "id": "C",
+          "texto": "Que se asignen por orden de llegada, sin permisos ni pagos.",
+          "posiciones": {
+            "coord_economica": -0.5
+          }
+        }
+      ],
+      "nota_interna": "Las opciones son mecanismos excluyentes (autoridad / precio / orden de llegada), no agentes que puedan combinarse."
+    },
+    {
+      "id": "Q25",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "coord_economica",
+      "peso_ejes": {
+        "coord_economica": 1.0
+      },
+      "faceta": "precios_y_asignacion",
+      "dominio": "economia_mercados",
+      "es_nucleo": true,
+      "enunciado": "Sobre los sueldos, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Que exista un sueldo mínimo legal que asegure una base salarial.",
+          "posiciones": {
+            "coord_economica": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Que cada empresa y cada trabajador acuerden libremente el sueldo según su situación.",
+          "posiciones": {
+            "coord_economica": -1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q26",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "coord_economica",
+      "peso_ejes": {
+        "coord_economica": 1.0
+      },
+      "faceta": "reglas_y_direccion",
+      "dominio": "economia_mercados",
+      "es_nucleo": false,
+      "enunciado": "Si una empresa llega a dominar casi todo un mercado, ¿qué debería poder hacer el Estado?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Intervenir solo si la empresa engaña a los clientes o bloquea de forma injusta a sus competidores.",
+          "posiciones": {
+            "coord_economica": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Limitar su tamaño o dividirla para fomentar la competencia entre más empresas.",
+          "posiciones": {
+            "coord_economica": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q27",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "coord_economica",
+      "peso_ejes": {
+        "coord_economica": 1.0
+      },
+      "faceta": "reglas_y_direccion",
+      "dominio": "economia_mercados",
+      "es_nucleo": false,
+      "enunciado": "Para poder ofrecer servicios profesionales o abrir un negocio, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Pedir antes un título, una licencia o pertenecer a un colegio profesional, como el de abogados o el de médicos.",
+          "posiciones": {
+            "coord_economica": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Poder empezar sin trámites previos y que cada persona elija a quien prefiera.",
+          "posiciones": {
+            "coord_economica": -1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q28",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "coord_economica",
+      "peso_ejes": {
+        "coord_economica": 1.0
+      },
+      "faceta": "reglas_y_direccion",
+      "dominio": "economia_mercados",
+      "es_nucleo": false,
+      "enunciado": "Para construir una carretera que atraviesa terrenos privados, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Que la administración pueda adquirir los terrenos a un precio justo para llevar adelante la obra, aunque algún propietario no quiera vender.",
+          "posiciones": {
+            "coord_economica": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Que solo se construya con los terrenos de quienes acepten vender libremente.",
+          "posiciones": {
+            "coord_economica": -1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q29",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "coord_economica",
+      "peso_ejes": {
+        "coord_economica": 1.0
+      },
+      "faceta": "provision_y_gestion",
+      "dominio": "economia_mercados",
+      "direccion": 1,
+      "es_nucleo": false,
+      "enunciado": "Servicios básicos como el agua, la electricidad o el transporte público deberían ser de titularidad pública.",
+      "nota_interna": "Ya no es espejo de Q30. Mide propiedad estatal de infraestructuras."
+    },
+    {
+      "id": "Q30",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "coord_economica",
+      "peso_ejes": {
+        "coord_economica": 1.0
+      },
+      "faceta": "provision_y_gestion",
+      "dominio": "economia_mercados",
+      "direccion": -1,
+      "es_nucleo": false,
+      "enunciado": "Es mejor que las familias reciban financiación pública para elegir entre colegios y centros de salud, públicos o privados, a que el Estado gestione solo sus propios centros.",
+      "nota_interna": "Ya no es espejo de Q29. Mide elección con financiación pública en educación y sanidad."
+    },
+    {
+      "id": "Q07",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "redistribucion",
+      "peso_ejes": {
+        "redistribucion": 1.0
+      },
+      "faceta": "impuestos_y_progresividad",
+      "dominio": "impuestos_transferencias",
+      "direccion": 1,
+      "es_nucleo": true,
+      "enunciado": "Quien tenga mayores ingresos debería aportar un porcentaje mayor en impuestos."
+    },
+    {
+      "id": "Q09",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "redistribucion",
+      "peso_ejes": {
+        "redistribucion": 1.0
+      },
+      "faceta": "obligatoriedad_y_riqueza",
+      "dominio": "impuestos_transferencias",
+      "direccion": 1,
+      "es_nucleo": false,
+      "enunciado": "El Estado debería gravar con impuestos más altos las grandes acumulaciones de riqueza o patrimonio.",
+      "nota_interna": "Sustituye al espejo plano de Q07 para medir intensidad redistributiva sobre grandes patrimonios."
+    },
+    {
+      "id": "Q08",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "redistribucion",
+      "peso_ejes": {
+        "redistribucion": 1.0
+      },
+      "faceta": "impuestos_y_progresividad",
+      "dominio": "impuestos_transferencias",
+      "es_nucleo": true,
+      "enunciado": "Sobre el nivel de impuestos y de ayudas económicas del Estado, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Impuestos más bajos para dejar más margen a cada persona y menos ayudas públicas.",
+          "posiciones": {
+            "redistribucion": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Más respaldo público y ayudas económicas financiado con mayores impuestos.",
+          "posiciones": {
+            "redistribucion": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q10",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "redistribucion",
+      "peso_ejes": {
+        "redistribucion": 1.0
+      },
+      "faceta": "obligatoriedad_y_riqueza",
+      "dominio": "ayuda_y_solidaridad",
+      "es_nucleo": true,
+      "enunciado": "Para ayudar a personas con dificultades económicas, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Que el Estado lo financie mediante impuestos o cotizaciones públicas.",
+          "posiciones": {
+            "redistribucion": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Que nazca de la iniciativa voluntaria: familias, donaciones, asociaciones, iglesias o mutualidades.",
+          "posiciones": {
+            "redistribucion": -1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q11",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "redistribucion",
+      "peso_ejes": {
+        "redistribucion": 1.0
+      },
+      "faceta": "diseno_de_ayudas",
+      "dominio": "ayuda_y_solidaridad",
+      "es_nucleo": false,
+      "enunciado": "Al diseñar las ayudas y prestaciones públicas, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Concentrar las ayudas en quienes tienen menos recursos.",
+          "posiciones": {
+            "redistribucion": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Extender las prestaciones y servicios a toda la población, sin distinguir por renta, como la sanidad o la educación universales.",
+          "posiciones": {
+            "redistribucion": 1.0
+          }
+        }
+      ],
+      "nota_interna": "Focalización por ingresos frente a universalidad en prestaciones y servicios."
+    },
+    {
+      "id": "Q12",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "redistribucion",
+      "peso_ejes": {
+        "redistribucion": 1.0
+      },
+      "faceta": "obligatoriedad_y_riqueza",
+      "dominio": "impuestos_transferencias",
+      "es_nucleo": false,
+      "enunciado": "Sobre las herencias de grandes patrimonios, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Que contribuyan con impuestos más altos para favorecer la igualdad de partida.",
+          "posiciones": {
+            "redistribucion": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Que tengan impuestos muy bajos o nulos para respetar el legado familiar.",
+          "posiciones": {
+            "redistribucion": -1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q31",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "eleccion_3",
+      "eje_primario": "redistribucion",
+      "peso_ejes": {
+        "redistribucion": 1.0
+      },
+      "faceta": "impuestos_y_progresividad",
+      "dominio": "impuestos_transferencias",
+      "es_nucleo": false,
+      "enunciado": "Para financiar los servicios y gastos públicos, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Que aporten más quienes tienen mayores ingresos o patrimonio.",
+          "posiciones": {
+            "redistribucion": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Que todos aporten según lo que compran, mediante impuestos al consumo como el IVA.",
+          "posiciones": {
+            "redistribucion": -0.5
+          }
+        },
+        {
+          "id": "C",
+          "texto": "Que no haya impuestos generales y los servicios se sostengan con pagos voluntarios o por uso.",
+          "posiciones": {
+            "redistribucion": -1.0
+          }
+        }
+      ],
+      "nota_interna": "Añadida la opción sin impuestos obligatorios. Suma -0.5 (E_rand de redistribución ≈ -0.014)."
+    },
+    {
+      "id": "Q32",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "redistribucion",
+      "peso_ejes": {
+        "redistribucion": 1.0
+      },
+      "faceta": "diseno_de_ayudas",
+      "dominio": "ayuda_y_solidaridad",
+      "direccion": -1,
+      "es_nucleo": false,
+      "enunciado": "Es bueno que quien reciba una ayuda económica asuma el compromiso de formarse o buscar empleo.",
+      "nota_interna": "Ya no es espejo de Q33. Mide condicionalidad."
+    },
+    {
+      "id": "Q33",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "redistribucion",
+      "peso_ejes": {
+        "redistribucion": 1.0
+      },
+      "faceta": "diseno_de_ayudas",
+      "dominio": "ayuda_y_solidaridad",
+      "direccion": 1,
+      "es_nucleo": false,
+      "enunciado": "El Estado debería garantizar un ingreso básico para vivir a quien no pueda trabajar o no encuentre empleo.",
+      "nota_interna": "Sustituye al espejo de Q32. Mide garantía de ingreso, no condicionalidad."
+    },
+    {
+      "id": "Q34",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "redistribucion",
+      "peso_ejes": {
+        "redistribucion": 1.0
+      },
+      "faceta": "obligatoriedad_y_riqueza",
+      "dominio": "impuestos_transferencias",
+      "es_nucleo": false,
+      "enunciado": "Para organizar las pensiones de jubilación, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Que cada persona construya su propio ahorro para la jubilación.",
+          "posiciones": {
+            "redistribucion": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Un sistema intergeneracional en el que las cotizaciones actuales sostienen las pensiones actuales.",
+          "posiciones": {
+            "redistribucion": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q35",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "redistribucion",
+      "peso_ejes": {
+        "redistribucion": 1.0
+      },
+      "faceta": "obligatoriedad_y_riqueza",
+      "dominio": "impuestos_transferencias",
+      "es_nucleo": false,
+      "enunciado": "Para financiar una obra que protege a toda una zona, como una defensa contra inundaciones, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Que la administración la costee mediante impuestos o tasas a los vecinos beneficiados.",
+          "posiciones": {
+            "redistribucion": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Aportaciones voluntarias de quienes quieran colaborar.",
+          "posiciones": {
+            "redistribucion": -1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q36",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "redistribucion",
+      "peso_ejes": {
+        "redistribucion": 1.0
+      },
+      "faceta": "diseno_de_ayudas",
+      "dominio": "ayuda_y_solidaridad",
+      "es_nucleo": true,
+      "enunciado": "Sobre la atención médica, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Que cada persona elija su seguro médico o pague directamente su atención.",
+          "posiciones": {
+            "redistribucion": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Un sistema público financiado con impuestos que cubra a toda la población.",
+          "posiciones": {
+            "redistribucion": 1.0
+          }
+        }
+      ],
+      "nota_interna": "Sustituye al seguro de enfermedad o paro: ahora es sanidad explícita."
+    },
+    {
+      "id": "Q13",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "orden_social",
+      "peso_ejes": {
+        "orden_social": 1.0
+      },
+      "faceta": "costumbres_y_cohesion",
+      "dominio": "cultura_costumbres",
+      "direccion": 1,
+      "espejo": "Q15",
+      "es_nucleo": true,
+      "enunciado": "Es valioso conservar las costumbres tradicionales de una comunidad, como sus fiestas y su forma de vida."
+    },
+    {
+      "id": "Q15",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "orden_social",
+      "peso_ejes": {
+        "orden_social": 1.0
+      },
+      "faceta": "costumbres_y_cohesion",
+      "dominio": "cultura_costumbres",
+      "direccion": -1,
+      "espejo": "Q13",
+      "es_nucleo": false,
+      "enunciado": "Es valioso que cada persona elija su propio estilo de vida, siga o no las costumbres tradicionales."
+    },
+    {
+      "id": "Q14",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "orden_social",
+      "peso_ejes": {
+        "orden_social": 1.0
+      },
+      "faceta": "costumbres_y_cohesion",
+      "dominio": "cultura_costumbres",
+      "es_nucleo": true,
+      "enunciado": "Si una persona vive con hábitos distintos a los de su entorno sin incumplir ninguna ley, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Que se espere que se adapte a las costumbres compartidas de su entorno.",
+          "posiciones": {
+            "orden_social": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Que se respete su propia forma de vivir.",
+          "posiciones": {
+            "orden_social": -1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q17",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "orden_social",
+      "peso_ejes": {
+        "orden_social": 1.0
+      },
+      "faceta": "vida_privada_y_normas_legales",
+      "dominio": "familia_vida_privada",
+      "es_nucleo": true,
+      "enunciado": "Sobre cómo se organiza una familia, por ejemplo quién trabaja fuera de casa, quién cuida de los hijos y cómo se reparten las tareas, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Que cada hogar decida cómo organizarse y repartir las tareas.",
+          "posiciones": {
+            "orden_social": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Que las leyes y políticas públicas respalden un modelo familiar concreto, como el matrimonio con hijos y el reparto tradicional.",
+          "posiciones": {
+            "orden_social": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q18",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "orden_social",
+      "peso_ejes": {
+        "orden_social": 1.0
+      },
+      "faceta": "referentes_comunes",
+      "dominio": "cultura_costumbres",
+      "es_nucleo": true,
+      "enunciado": "En la escuela y en los actos públicos, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Que cada familia o centro pueda elegir enfoques culturales distintos.",
+          "posiciones": {
+            "orden_social": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Que se comparta una cultura y una historia común para fortalecer la cohesión.",
+          "posiciones": {
+            "orden_social": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q40",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "orden_social",
+      "peso_ejes": {
+        "orden_social": 1.0
+      },
+      "faceta": "vida_privada_y_normas_legales",
+      "dominio": "familia_vida_privada",
+      "es_nucleo": false,
+      "enunciado": "Sobre el alcohol, el tabaco y otras sustancias perjudiciales para la salud, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Que la ley limite su venta o su consumo.",
+          "posiciones": {
+            "orden_social": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Que cada persona adulta decida por sí misma.",
+          "posiciones": {
+            "orden_social": -1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q41",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "orden_social",
+      "peso_ejes": {
+        "orden_social": 1.0
+      },
+      "faceta": "referentes_comunes",
+      "dominio": "cultura_costumbres",
+      "es_nucleo": false,
+      "enunciado": "Cuando llegan a una comunidad personas con otras costumbres, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Que adopten las costumbres y normas culturales del lugar para integrarse.",
+          "posiciones": {
+            "orden_social": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Que mantengan sus costumbres mientras cumplan la ley.",
+          "posiciones": {
+            "orden_social": -1.0
+          }
+        }
+      ],
+      "nota_interna": "Ítem sensible: calibrar en piloto."
+    },
+    {
+      "id": "Q42",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "orden_social",
+      "peso_ejes": {
+        "orden_social": 1.0
+      },
+      "faceta": "vida_privada_y_normas_legales",
+      "dominio": "familia_vida_privada",
+      "es_nucleo": false,
+      "enunciado": "Sobre la eutanasia, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Que la ley la permita como opción personal.",
+          "posiciones": {
+            "orden_social": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Que la ley la prohíba para proteger la vida en todo momento.",
+          "posiciones": {
+            "orden_social": 1.0
+          }
+        }
+      ],
+      "nota_matiz": "Eutanasia: que un médico ayude a poner fin a la vida de una persona adulta con una enfermedad incurable y un sufrimiento grave, si ella lo pide.",
+      "nota_interna": "Eutanasia. También carga en poder (coerción estatal); se asigna a un solo eje por simplicidad."
+    },
+    {
+      "id": "Q43",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "orden_social",
+      "peso_ejes": {
+        "orden_social": 1.0
+      },
+      "faceta": "vida_privada_y_normas_legales",
+      "dominio": "familia_vida_privada",
+      "es_nucleo": false,
+      "enunciado": "Sobre el aborto en las primeras semanas del embarazo, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Que la ley deje la decisión en manos de la mujer.",
+          "posiciones": {
+            "orden_social": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Que la ley lo prohíba en general para proteger la vida en gestación.",
+          "posiciones": {
+            "orden_social": 1.0
+          }
+        }
+      ],
+      "nota_interna": "NUEVO (aborto). Mismo criterio que Q42."
+    },
+    {
+      "id": "Q38",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "orden_social",
+      "peso_ejes": {
+        "orden_social": 1.0
+      },
+      "faceta": "referentes_comunes",
+      "dominio": "estado_y_fronteras",
+      "es_nucleo": false,
+      "enunciado": "Sobre quién puede entrar a vivir en un país, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Que las personas puedan desplazarse y establecerse en otro país con pocas o ninguna traba.",
+          "posiciones": {
+            "orden_social": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Que cada país regule y controle quién puede entrar.",
+          "posiciones": {
+            "orden_social": 1.0
+          }
+        }
+      ],
+      "nota_interna": "NUEVO (fronteras). Carga también algo en coord (movilidad laboral); se deja en un eje."
+    },
+    {
+      "id": "Q39",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "orden_social",
+      "peso_ejes": {
+        "orden_social": 1.0
+      },
+      "faceta": "referentes_comunes",
+      "dominio": "cultura_costumbres",
+      "es_nucleo": false,
+      "enunciado": "Sobre la religión y el Estado, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Que el Estado reconozca y apoye la tradición religiosa del país en la vida pública, por ejemplo en fiestas, símbolos o escuelas.",
+          "posiciones": {
+            "orden_social": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Que el Estado sea neutral y dé el mismo trato a todas las creencias y a quienes no tienen ninguna.",
+          "posiciones": {
+            "orden_social": -1.0
+          }
+        }
+      ],
+      "nota_interna": "NUEVO (religión y Estado). Sustituye al par Q38/Q39 de horarios."
+    },
+    {
+      "id": "Q37",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "poder_jurisprudencia",
+      "peso_ejes": {
+        "poder_jurisprudencia": 1.0
+      },
+      "faceta": "castigo_ley_y_norma_social",
+      "dominio": "normas_y_convivencia",
+      "es_nucleo": false,
+      "enunciado": "Ante expresiones que mucha gente considera ofensivas, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Que la ley pueda limitar expresiones gravemente ofensivas, como los insultos dirigidos a grupos de personas.",
+          "posiciones": {
+            "poder_jurisprudencia": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Que se proteja la libertad de expresión mientras no incite directamente a la violencia.",
+          "posiciones": {
+            "poder_jurisprudencia": -1.0
+          }
+        }
+      ],
+      "nota_interna": "Movido a poder_jurisprudencia para mantener 12 ítems por eje y medir regulación legal de la expresión."
+    },
+    {
+      "id": "Q19",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "poder_jurisprudencia",
+      "peso_ejes": {
+        "poder_jurisprudencia": 1.0
+      },
+      "faceta": "garantias_y_proceso",
+      "dominio": "justicia_garantias",
+      "direccion": -1,
+      "espejo": "Q21",
+      "es_nucleo": true,
+      "enunciado": "Es fundamental proteger siempre las garantías de quien es investigado o juzgado: juicio justo, derecho a defensa, presunción de inocencia y límites claros a detenciones y registros."
+    },
+    {
+      "id": "Q21",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "poder_jurisprudencia",
+      "peso_ejes": {
+        "poder_jurisprudencia": 1.0
+      },
+      "faceta": "garantias_y_proceso",
+      "dominio": "justicia_garantias",
+      "direccion": 1,
+      "espejo": "Q19",
+      "es_nucleo": false,
+      "enunciado": "En los delitos graves es conveniente agilizar los procedimientos y reducir ciertos trámites para actuar con mayor rapidez y eficacia."
+    },
+    {
+      "id": "Q22",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "eleccion_3",
+      "eje_primario": "poder_jurisprudencia",
+      "peso_ejes": {
+        "poder_jurisprudencia": 1.0
+      },
+      "faceta": "castigo_ley_y_norma_social",
+      "dominio": "justicia_garantias",
+      "es_nucleo": true,
+      "enunciado": "Ante un delito grave, ¿qué prefieres priorizar?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Invertir en que quien cometió el delito pueda reinsertarse y aportar a la sociedad.",
+          "posiciones": {
+            "poder_jurisprudencia": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Que quien cometió el delito repare el daño y compense a la víctima.",
+          "posiciones": {
+            "poder_jurisprudencia": 0.0
+          }
+        },
+        {
+          "id": "C",
+          "texto": "Penas de cárcel más largas para reforzar la seguridad y la disuasión.",
+          "posiciones": {
+            "poder_jurisprudencia": 1.0
+          }
+        }
+      ],
+      "nota_interna": "Antes preferencia_5 (pena vs reinserción). Ahora eleccion_3 con restitución a la víctima en posición 0."
+    },
+    {
+      "id": "Q23",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "poder_jurisprudencia",
+      "peso_ejes": {
+        "poder_jurisprudencia": 1.0
+      },
+      "faceta": "investigacion_y_excepcionalidad",
+      "dominio": "justicia_garantias",
+      "es_nucleo": true,
+      "enunciado": "Ante una emergencia grave, ¿qué prefieres sobre las medidas excepcionales del Gobierno?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Que un juez o el Parlamento las autoricen antes de aplicarlas.",
+          "posiciones": {
+            "poder_jurisprudencia": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Que puedan aplicarse de inmediato para responder a tiempo y revisarse después.",
+          "posiciones": {
+            "poder_jurisprudencia": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q24",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "poder_jurisprudencia",
+      "peso_ejes": {
+        "poder_jurisprudencia": 1.0
+      },
+      "faceta": "investigacion_y_excepcionalidad",
+      "dominio": "justicia_garantias",
+      "es_nucleo": true,
+      "enunciado": "Sobre el acceso a mensajes, llamadas y datos personales en las investigaciones, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Facilitarlo para que las investigaciones sean más ágiles y eficaces.",
+          "posiciones": {
+            "poder_jurisprudencia": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Limitarlo a casos concretos y bajo autorización de un juez.",
+          "posiciones": {
+            "poder_jurisprudencia": -1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q44",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "poder_jurisprudencia",
+      "peso_ejes": {
+        "poder_jurisprudencia": 1.0
+      },
+      "faceta": "garantias_y_proceso",
+      "dominio": "justicia_garantias",
+      "es_nucleo": false,
+      "enunciado": "Sobre la prisión provisional antes del juicio en delitos graves, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Que se aplique cuando existan indicios de riesgo para la seguridad o de reiteración.",
+          "posiciones": {
+            "poder_jurisprudencia": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Que solo se aplique si hay riesgo claro de fuga o de alterar pruebas.",
+          "posiciones": {
+            "poder_jurisprudencia": -1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q48",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "poder_jurisprudencia",
+      "peso_ejes": {
+        "poder_jurisprudencia": 0.5
+      },
+      "faceta": "garantias_y_proceso",
+      "dominio": "justicia_garantias",
+      "es_nucleo": false,
+      "enunciado": "Cuando aplicar una ley al pie de la letra da un resultado muy duro en un caso concreto, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Que el juez aplique la ley tal como está escrita para mantener previsibilidad e igualdad.",
+          "posiciones": {
+            "poder_jurisprudencia": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Que el juez pueda modular la aplicación de la ley para evitar un resultado injusto.",
+          "posiciones": {
+            "poder_jurisprudencia": 1.0
+          }
+        }
+      ],
+      "nota_interna": "Peso reducido a 0.5 para no desplazar en exceso a perfiles garantistas o igualitarios."
+    },
+    {
+      "id": "Q16",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "preferencia_5",
+      "eje_primario": "poder_jurisprudencia",
+      "peso_ejes": {
+        "poder_jurisprudencia": 1.0
+      },
+      "faceta": "investigacion_y_excepcionalidad",
+      "dominio": "justicia_garantias",
+      "es_nucleo": false,
+      "enunciado": "Sobre el anonimato en internet, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Que las plataformas identifiquen a sus usuarios para facilitar la persecución de delitos en la red.",
+          "posiciones": {
+            "poder_jurisprudencia": 1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Que cualquier persona pueda navegar de forma anónima para proteger su privacidad.",
+          "posiciones": {
+            "poder_jurisprudencia": -1.0
+          }
+        }
+      ],
+      "nota_interna": "NUEVO (privacidad en internet). Sustituye a la primera mitad del antiguo Q16, fusionado en Q20."
+    },
+    {
+      "id": "Q20",
+      "tipo": "propuesta_tradeoff",
+      "tipo_respuesta": "eleccion_3",
+      "eje_primario": "poder_jurisprudencia",
+      "peso_ejes": {
+        "poder_jurisprudencia": 1.0,
+        "orden_social": 0.4
+      },
+      "faceta": "castigo_ley_y_norma_social",
+      "dominio": "normas_y_convivencia",
+      "es_nucleo": false,
+      "enunciado": "Si una norma de convivencia es importante para parte de la población, ¿qué prefieres?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Que no exista ninguna norma externa y cada individuo decida su conducta.",
+          "posiciones": {
+            "poder_jurisprudencia": -1.0,
+            "orden_social": -1.0
+          }
+        },
+        {
+          "id": "B",
+          "texto": "Que cada asociación o comunidad fije sus propias reglas, aplicables solo a quienes se adhieran voluntariamente.",
+          "posiciones": {
+            "poder_jurisprudencia": -0.5,
+            "orden_social": 0.8
+          }
+        },
+        {
+          "id": "C",
+          "texto": "Que el Estado la establezca como ley general para toda la población.",
+          "posiciones": {
+            "poder_jurisprudencia": 1.0,
+            "orden_social": 0.8
+          }
+        }
+      ],
+      "nota_interna": "Fusión de Q16 y Q20. Suma de poder -0.5 (E_rand de poder ≈ -0.014)."
+    },
+    {
+      "id": "Q45",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "poder_jurisprudencia",
+      "peso_ejes": {
+        "poder_jurisprudencia": 1.0
+      },
+      "faceta": "castigo_ley_y_norma_social",
+      "dominio": "justicia_garantias",
+      "direccion": 1,
+      "es_nucleo": false,
+      "enunciado": "Para mantener el orden público, las fuerzas de seguridad deberían poder actuar con contundencia preventiva aunque eso aumente el riesgo de excesos.",
+      "nota_interna": "Contundencia preventiva del orden público frente a contención para evitar excesos (dirección +1 en poder)."
+    },
+    {
+      "id": "Q46",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "poder_jurisprudencia",
+      "peso_ejes": {
+        "poder_jurisprudencia": 1.0
+      },
+      "faceta": "investigacion_y_excepcionalidad",
+      "dominio": "estado_y_fronteras",
+      "direccion": -1,
+      "es_nucleo": false,
+      "enunciado": "Una norma solo es legítima si cada persona la acepta voluntariamente, aunque eso impida aplicarla a todos.",
+      "nota_interna": "Enunciado endurecido para discriminar mejor frente a la aceptación de coerción legal."
+    },
+    {
+      "id": "Q47",
+      "tipo": "principio",
+      "tipo_respuesta": "acuerdo_5",
+      "eje_primario": "poder_jurisprudencia",
+      "peso_ejes": {
+        "poder_jurisprudencia": 1.0
+      },
+      "faceta": "castigo_ley_y_norma_social",
+      "dominio": "estado_y_fronteras",
+      "direccion": 1,
+      "es_nucleo": false,
+      "enunciado": "El servicio militar obligatorio ayuda a fortalecer la defensa del país y el vínculo cívico.",
+      "nota_interna": "Reformulado manteniendo servicio militar obligatorio de forma explícita y equilibrada."
+    }
+  ]
+}
